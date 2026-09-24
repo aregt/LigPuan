@@ -14,9 +14,10 @@ Kurallar:
   doğrulanır; ada bakıp eşleştirme yapılmaz. Eşleme boşsa ilk anahtarlı
   çalışma puan durumu ve fikstürü çekip tüm kimlikleri ad ipuçlarıyla
   listeler; hiçbir yayın dosyası değişmez.
-- Son 14 gündeki maçlar her çalışmada yeniden çekilir; eski kayıtlar
-  olduğu gibi korunur. Tekillik anahtarı sağlayıcı + maç kimliğidir;
-  aynı maç ikinci kez toplamlara eklenmez.
+- Bitmiş maçlar yalnızca son RECHECK_DAYS günde yeniden çekilir; daha
+  eski kayıtlar temel alanları eksik olmadıkça olduğu gibi korunur.
+  Temel alan eksikse yaşa bakılmaksızın yeniden çekilir. Tekillik anahtarı
+  sağlayıcı + maç kimliğidir; aynı maç ikinci kez toplamlara eklenmez.
 - "Alan yok" ile "veri var, değer 0" ayrı tutulur: bulunmayan alan
   yazılmaz, bulunan sıfır 0 olarak yazılır. Çelişen aynı alan atlanır.
 - Kırmızı kart, ev/deplasman dağılımı güvenilir biçimde eşlenebiliyorsa
@@ -49,7 +50,7 @@ GOAL_FILE = ROOT / "data" / "matches" / "goal-superlig-2026-27.json"
 PROVIDER = "goal_api"
 TIMEOUT = 20
 TRIES = 3
-RECHECK_DAYS = 14
+RECHECK_DAYS = 3
 
 # LP-04'te ölçülen ve takıma yazılabilen alanlar (ölçü adı -> yerel anahtar).
 ROW_FIELDS = (
@@ -65,6 +66,10 @@ ROW_FIELDS = (
     ("Sarı kart", "yellow_cards"),
     ("Kırmızı kart", "red_cards"),
 )
+
+# Yayın doğrulamasının %80 eşiğini dayattığı temel alanlar. Bunlar eksikken
+# kaydın yaşı ne olursa olsun yeniden çekilir; doluysa yaş sınırı uygulanır.
+CORE_FIELDS = ("shots", "passes", "corners")
 
 STAT_LABELS = {
     alias: local
@@ -118,6 +123,7 @@ class ApiClient:
         self.transport = transport or self._url_transport
         self.calls = 0
         self.failures = []
+        self.last_headers = {}
 
     def _headers(self):
         headers = {"Accept": "application/json", "User-Agent": "LigPuan-veri-guncelleyici"}
@@ -128,8 +134,15 @@ class ApiClient:
         return headers
 
     def _url_transport(self, request):
-        with urlopen(request, timeout=self.timeout) as response:
-            return response.read().decode("utf-8", errors="replace")
+        # Kota başlıkları gövdede değil yanıt başlığında gelir; hata yanıtında da
+        # okunur, böylece 429 sonrası kalan kotayı görmek mümkün olur.
+        try:
+            with urlopen(request, timeout=self.timeout) as response:
+                self.last_headers = dict(response.headers)
+                return response.read().decode("utf-8", errors="replace")
+        except HTTPError as error:
+            self.last_headers = dict(error.headers or {})
+            raise
 
     def get(self, path, tries=None, **params):
         query = f"?{urlencode(params)}" if params else ""
@@ -146,7 +159,15 @@ class ApiClient:
                     last = "yanıt JSON değil"
                     break
             except HTTPError as error:
-                if error.code == 429 or 500 <= error.code < 600:
+                if error.code == 429:
+                    payload = error.read().decode("utf-8", errors="replace")
+                    if "RATE_LIMIT_EXCEEDED" in payload:
+                        # Günlük kota doldu. Denemek işe yaramaz; kota
+                        # dönene kadar beklemek dışarıda bırakılır.
+                        self.failures.append(f"{path}: günlük kota doldu")
+                        return None, "günlük kota doldu (HTTP 429)"
+                    last = "HTTP 429"
+                elif 500 <= error.code < 600:
                     last = f"HTTP {error.code}"
                 else:
                     self.failures.append(f"{path}: HTTP {error.code}")
@@ -436,7 +457,7 @@ def run(client, today=None):
         previous = stored.get(match_id)
         previous_stats = (previous or {}).get("stats") or {}
         core_complete = all(
-            isinstance(values, dict) and "shots" in values and "passes" in values
+            isinstance(values, dict) and all(field in values for field in CORE_FIELDS)
             for values in previous_stats.values()
         ) and len(previous_stats) == 2
         if previous is not None and previous.get("date", "") < cutoff and core_complete:
@@ -592,9 +613,11 @@ def main():
     except (FetchError, update_data.DataError) as error:
         print(f"HATA: {error}", file=sys.stderr)
         print("Yarım veya tutarsız güncelleme yayınlanmadı; data/site.json değiştirilmedi.", file=sys.stderr)
+        probe.print_quota(client.last_headers)
         return 1
     print(f"anahtar: {key_source} (değer yazılmadı)")
     print_summary(summary)
+    probe.print_quota(client.last_headers)
     return 0
 
 

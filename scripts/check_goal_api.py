@@ -396,6 +396,34 @@ def load_key():
     return None, None
 
 
+def quota_reset_text(value):
+    """X-RateLimit-Reset değerini okunabilir UTC anına çevirir (unix saniye ya da ISO)."""
+    text = str(value).strip()
+    if text.isdigit():
+        return datetime.fromtimestamp(int(text), tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    try:
+        parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    except ValueError:
+        return text
+
+
+def print_quota(headers):
+    """Yanıt başlıklarından kota özeti yazar; günlük başlık yoksa bunu açıkça söyler."""
+    limit = headers.get("X-RateLimit-Limit")
+    remaining = headers.get("X-RateLimit-Remaining")
+    reset = headers.get("X-RateLimit-Reset")
+    kind = headers.get("X-RateLimit-Type")
+    if limit is None and remaining is None:
+        print("kota: günlük başlık gelmedi (yanıt yalnızca patlama başlıkları taşıyor)")
+        return
+    print(f"kota: {remaining}/{limit} kaldı, tip {kind or 'bilinmiyor'}")
+    if reset:
+        print(f"kota sıfırlama: {quota_reset_text(reset)}")
+
+
 def report_has_measurement():
     if not REPORT.is_file():
         return False
