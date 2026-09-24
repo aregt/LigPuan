@@ -1,0 +1,49 @@
+name: Günlük veri yenileme
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ligpuan-veri-yenileme
+  cancel-in-progress: false
+
+jobs:
+  yenile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sağlayıcıdan çek
+        env:
+          GOAL_API_KEY: ${{ secrets.GOAL_API_KEY }}
+        run: python scripts/fetch_goal_data.py
+
+      - name: Topla ve yayın dosyasını üret
+        run: python scripts/update_data.py
+
+      - name: HTML üret
+        run: python scripts/generate_site.py
+
+      - name: Değişikliği gönder
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Degisiklik yok, yeni commit acilmadi."
+            exit 0
+          fi
+          git commit -m "Veri yenilendi: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
