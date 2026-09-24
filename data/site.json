@@ -1,0 +1,1403 @@
+{
+  "season": "2026-27",
+  "league": "Türkiye Süper Lig",
+  "generated_at": "2026-09-24T18:30:14+00:00",
+  "match_count": 54,
+  "coverage_total": 6,
+  "source_kind": "provider",
+  "latest_round": 6,
+  "latest_round_match_count": 9,
+  "teams": [
+    {
+      "id": "amed",
+      "name": "Amed",
+      "code": "AM",
+      "badge": "b1"
+    },
+    {
+      "id": "galatasaray",
+      "name": "Galatasaray",
+      "code": "GS",
+      "badge": "b2"
+    },
+    {
+      "id": "besiktas",
+      "name": "Beşiktaş",
+      "code": "BŞ",
+      "badge": "b3"
+    },
+    {
+      "id": "kocaeli",
+      "name": "Kocaelispor",
+      "code": "KO",
+      "badge": "b4"
+    },
+    {
+      "id": "alanya",
+      "name": "Alanyaspor",
+      "code": "AL",
+      "badge": "b5"
+    },
+    {
+      "id": "fenerbahce",
+      "name": "Fenerbahçe",
+      "code": "FB",
+      "badge": "b6"
+    },
+    {
+      "id": "trabzon",
+      "name": "Trabzonspor",
+      "code": "TS",
+      "badge": "b7"
+    },
+    {
+      "id": "kasimpasa",
+      "name": "Kasımpaşa",
+      "code": "KP",
+      "badge": "b1"
+    },
+    {
+      "id": "rize",
+      "name": "Rizespor",
+      "code": "RZ",
+      "badge": "b2"
+    },
+    {
+      "id": "gaziantep",
+      "name": "Gaziantep FK",
+      "code": "GF",
+      "badge": "b3"
+    },
+    {
+      "id": "corum",
+      "name": "Çorum",
+      "code": "ÇR",
+      "badge": "b4"
+    },
+    {
+      "id": "basaksehir",
+      "name": "İstanbul Başakşehir",
+      "code": "BŞH",
+      "badge": "b5"
+    },
+    {
+      "id": "gencler",
+      "name": "Gençlerbirliği",
+      "code": "GB",
+      "badge": "b6"
+    },
+    {
+      "id": "erzurum",
+      "name": "Erzurumspor FK",
+      "code": "ER",
+      "badge": "b7"
+    },
+    {
+      "id": "konya",
+      "name": "Konyaspor",
+      "code": "KN",
+      "badge": "b1"
+    },
+    {
+      "id": "samsun",
+      "name": "Samsunspor",
+      "code": "SM",
+      "badge": "b2"
+    },
+    {
+      "id": "goztepe",
+      "name": "Göztepe",
+      "code": "GZ",
+      "badge": "b3"
+    },
+    {
+      "id": "eyup",
+      "name": "Eyüpspor",
+      "code": "EY",
+      "badge": "b4"
+    }
+  ],
+  "standings": [
+    {
+      "team_id": "amed",
+      "name": "Amed",
+      "played": 6,
+      "won": 4,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 15,
+      "goals_against": 7,
+      "average": 8,
+      "points": 13,
+      "points_deduction": 0,
+      "rank": 1
+    },
+    {
+      "team_id": "galatasaray",
+      "name": "Galatasaray",
+      "played": 6,
+      "won": 4,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 13,
+      "goals_against": 10,
+      "average": 3,
+      "points": 13,
+      "points_deduction": 0,
+      "rank": 2
+    },
+    {
+      "team_id": "besiktas",
+      "name": "Beşiktaş",
+      "played": 6,
+      "won": 4,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 14,
+      "goals_against": 7,
+      "average": 7,
+      "points": 12,
+      "points_deduction": 0,
+      "rank": 3
+    },
+    {
+      "team_id": "kocaeli",
+      "name": "Kocaelispor",
+      "played": 6,
+      "won": 4,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 7,
+      "goals_against": 4,
+      "average": 3,
+      "points": 12,
+      "points_deduction": 0,
+      "rank": 4
+    },
+    {
+      "team_id": "alanya",
+      "name": "Alanyaspor",
+      "played": 6,
+      "won": 3,
+      "drawn": 2,
+      "lost": 1,
+      "goals_for": 8,
+      "goals_against": 6,
+      "average": 2,
+      "points": 11,
+      "points_deduction": 0,
+      "rank": 5
+    },
+    {
+      "team_id": "fenerbahce",
+      "name": "Fenerbahçe",
+      "played": 6,
+      "won": 3,
+      "drawn": 1,
+      "lost": 2,
+      "goals_for": 16,
+      "goals_against": 6,
+      "average": 10,
+      "points": 10,
+      "points_deduction": 0,
+      "rank": 6
+    },
+    {
+      "team_id": "trabzon",
+      "name": "Trabzonspor",
+      "played": 6,
+      "won": 3,
+      "drawn": 1,
+      "lost": 2,
+      "goals_for": 13,
+      "goals_against": 5,
+      "average": 8,
+      "points": 10,
+      "points_deduction": 0,
+      "rank": 7
+    },
+    {
+      "team_id": "kasimpasa",
+      "name": "Kasımpaşa",
+      "played": 6,
+      "won": 2,
+      "drawn": 4,
+      "lost": 0,
+      "goals_for": 7,
+      "goals_against": 5,
+      "average": 2,
+      "points": 10,
+      "points_deduction": 0,
+      "rank": 8
+    },
+    {
+      "team_id": "rize",
+      "name": "Rizespor",
+      "played": 6,
+      "won": 3,
+      "drawn": 1,
+      "lost": 2,
+      "goals_for": 7,
+      "goals_against": 6,
+      "average": 1,
+      "points": 10,
+      "points_deduction": 0,
+      "rank": 9
+    },
+    {
+      "team_id": "gaziantep",
+      "name": "Gaziantep FK",
+      "played": 6,
+      "won": 2,
+      "drawn": 2,
+      "lost": 2,
+      "goals_for": 7,
+      "goals_against": 7,
+      "average": 0,
+      "points": 8,
+      "points_deduction": 0,
+      "rank": 10
+    },
+    {
+      "team_id": "corum",
+      "name": "Çorum",
+      "played": 6,
+      "won": 2,
+      "drawn": 1,
+      "lost": 3,
+      "goals_for": 13,
+      "goals_against": 12,
+      "average": 1,
+      "points": 7,
+      "points_deduction": 0,
+      "rank": 11
+    },
+    {
+      "team_id": "basaksehir",
+      "name": "İstanbul Başakşehir",
+      "played": 6,
+      "won": 2,
+      "drawn": 1,
+      "lost": 3,
+      "goals_for": 10,
+      "goals_against": 11,
+      "average": -1,
+      "points": 7,
+      "points_deduction": 0,
+      "rank": 12
+    },
+    {
+      "team_id": "erzurum",
+      "name": "Erzurumspor FK",
+      "played": 6,
+      "won": 2,
+      "drawn": 1,
+      "lost": 3,
+      "goals_for": 3,
+      "goals_against": 11,
+      "average": -8,
+      "points": 7,
+      "points_deduction": 0,
+      "rank": 13
+    },
+    {
+      "team_id": "gencler",
+      "name": "Gençlerbirliği",
+      "played": 6,
+      "won": 2,
+      "drawn": 1,
+      "lost": 3,
+      "goals_for": 5,
+      "goals_against": 13,
+      "average": -8,
+      "points": 7,
+      "points_deduction": 0,
+      "rank": 14
+    },
+    {
+      "team_id": "konya",
+      "name": "Konyaspor",
+      "played": 6,
+      "won": 1,
+      "drawn": 1,
+      "lost": 4,
+      "goals_for": 4,
+      "goals_against": 8,
+      "average": -4,
+      "points": 4,
+      "points_deduction": 0,
+      "rank": 15
+    },
+    {
+      "team_id": "samsun",
+      "name": "Samsunspor",
+      "played": 6,
+      "won": 1,
+      "drawn": 1,
+      "lost": 4,
+      "goals_for": 6,
+      "goals_against": 12,
+      "average": -6,
+      "points": 4,
+      "points_deduction": 0,
+      "rank": 16
+    },
+    {
+      "team_id": "goztepe",
+      "name": "Göztepe",
+      "played": 6,
+      "won": 0,
+      "drawn": 3,
+      "lost": 3,
+      "goals_for": 11,
+      "goals_against": 15,
+      "average": -4,
+      "points": 3,
+      "points_deduction": 0,
+      "rank": 17
+    },
+    {
+      "team_id": "eyup",
+      "name": "Eyüpspor",
+      "played": 6,
+      "won": 1,
+      "drawn": 0,
+      "lost": 5,
+      "goals_for": 2,
+      "goals_against": 16,
+      "average": -14,
+      "points": 3,
+      "points_deduction": 0,
+      "rank": 18
+    }
+  ],
+  "metrics": {
+    "shots": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 84,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 137,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 86,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 74,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 56,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 95,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 85,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 70,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 71,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 54,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 78,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 75,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 72,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 46,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 69,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 78,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 85,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 74,
+          "coverage": 6
+        }
+      }
+    },
+    "shots_on_target": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 30,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 46,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 32,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 24,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 16,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 41,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 39,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 20,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 25,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 14,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 30,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 25,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 21,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 15,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 20,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 16,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 31,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 21,
+          "coverage": 6
+        }
+      }
+    },
+    "corners": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 23,
+          "coverage": 5
+        },
+        "galatasaray": {
+          "sum": 42,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 50,
+          "coverage": 6
+        },
+        "kocaeli": {
+          "sum": 17,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 32,
+          "coverage": 6
+        },
+        "fenerbahce": {
+          "sum": 34,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 34,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 23,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 30,
+          "coverage": 6
+        },
+        "gaziantep": {
+          "sum": 19,
+          "coverage": 5
+        },
+        "corum": {
+          "sum": 27,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 23,
+          "coverage": 5
+        },
+        "gencler": {
+          "sum": 22,
+          "coverage": 5
+        },
+        "erzurum": {
+          "sum": 19,
+          "coverage": 6
+        },
+        "konya": {
+          "sum": 12,
+          "coverage": 5
+        },
+        "samsun": {
+          "sum": 23,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 25,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 20,
+          "coverage": 5
+        }
+      }
+    },
+    "offsides": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 15,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 14,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 18,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 8,
+          "coverage": 5
+        },
+        "alanya": {
+          "sum": 10,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 12,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 14,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 7,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 9,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 12,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 12,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 6,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 10,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 4,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 6,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 9,
+          "coverage": 5
+        },
+        "goztepe": {
+          "sum": 14,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 2,
+          "coverage": 6
+        }
+      }
+    },
+    "passes": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 2367,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 2869,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 2499,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 2520,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 1658,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 2339,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 2800,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 2119,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 2195,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 1808,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 2982,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 2830,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 2165,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 2146,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 2310,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 3138,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 1347,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 2286,
+          "coverage": 6
+        }
+      }
+    },
+    "accurate_passes": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 1951,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 2485,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 2161,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 2052,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 1306,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 2062,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 2428,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 1665,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 1859,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 1500,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 2589,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 2426,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 1762,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 1789,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 1902,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 2675,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 928,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 1945,
+          "coverage": 6
+        }
+      }
+    },
+    "possession": {
+      "kind": "average",
+      "values": {
+        "amed": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "galatasaray": {
+          "sum": 116.0,
+          "coverage": 2
+        },
+        "besiktas": {
+          "sum": 73.0,
+          "coverage": 1
+        },
+        "kocaeli": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "alanya": {
+          "sum": 36.0,
+          "coverage": 1
+        },
+        "fenerbahce": {
+          "sum": 122.0,
+          "coverage": 2
+        },
+        "trabzon": {
+          "sum": 49.0,
+          "coverage": 1
+        },
+        "kasimpasa": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "rize": {
+          "sum": 114.0,
+          "coverage": 2
+        },
+        "gaziantep": {
+          "sum": 83.0,
+          "coverage": 2
+        },
+        "corum": {
+          "sum": 36.0,
+          "coverage": 1
+        },
+        "basaksehir": {
+          "sum": 48.0,
+          "coverage": 1
+        },
+        "gencler": {
+          "sum": 51.0,
+          "coverage": 1
+        },
+        "erzurum": {
+          "sum": 69.0,
+          "coverage": 2
+        },
+        "konya": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "samsun": {
+          "sum": 58.0,
+          "coverage": 1
+        },
+        "goztepe": {
+          "sum": 49.0,
+          "coverage": 1
+        },
+        "eyup": {
+          "sum": 96.0,
+          "coverage": 2
+        }
+      }
+    },
+    "saves": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 17,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 10,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 10,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 19,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 18,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 17,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 21,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 17,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 21,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 7,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 22,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 17,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 35,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 8,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 23,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 24,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 13,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 19,
+          "coverage": 6
+        }
+      }
+    },
+    "fouls": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 87,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 74,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 71,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 73,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 72,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 65,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 65,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 89,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 60,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 53,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 82,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 75,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 73,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 56,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 80,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 69,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 65,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 73,
+          "coverage": 6
+        }
+      }
+    },
+    "yellow_cards": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 20,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 9,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 12,
+          "coverage": 4
+        },
+        "kocaeli": {
+          "sum": 8,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 6,
+          "coverage": 4
+        },
+        "fenerbahce": {
+          "sum": 7,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 15,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 17,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 11,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 7,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 13,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 14,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 10,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 8,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 16,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 4,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 14,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 9,
+          "coverage": 6
+        }
+      }
+    },
+    "red_cards": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 1,
+          "coverage": 1
+        },
+        "galatasaray": {
+          "sum": 1,
+          "coverage": 3
+        },
+        "besiktas": {
+          "sum": 0,
+          "coverage": 2
+        },
+        "kocaeli": {
+          "sum": 0,
+          "coverage": 1
+        },
+        "alanya": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "fenerbahce": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "trabzon": {
+          "sum": 0,
+          "coverage": 1
+        },
+        "kasimpasa": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "rize": {
+          "sum": 1,
+          "coverage": 1
+        },
+        "gaziantep": {
+          "sum": 1,
+          "coverage": 1
+        },
+        "corum": {
+          "sum": 1,
+          "coverage": 1
+        },
+        "basaksehir": {
+          "sum": 1,
+          "coverage": 1
+        },
+        "gencler": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "erzurum": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "konya": {
+          "sum": 1,
+          "coverage": 1
+        },
+        "samsun": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "goztepe": {
+          "sum": 0,
+          "coverage": 0
+        },
+        "eyup": {
+          "sum": 1,
+          "coverage": 3
+        }
+      }
+    },
+    "clean_sheets": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "kocaeli": {
+          "sum": 3,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "fenerbahce": {
+          "sum": 3,
+          "coverage": 6
+        },
+        "trabzon": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "gaziantep": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "corum": {
+          "sum": 1,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 1,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "konya": {
+          "sum": 2,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 1,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 0,
+          "coverage": 6
+        },
+        "eyup": {
+          "sum": 0,
+          "coverage": 6
+        }
+      }
+    },
+    "shots_faced": {
+      "kind": "count",
+      "values": {
+        "amed": {
+          "sum": 66,
+          "coverage": 6
+        },
+        "galatasaray": {
+          "sum": 61,
+          "coverage": 6
+        },
+        "besiktas": {
+          "sum": 43,
+          "coverage": 5
+        },
+        "kocaeli": {
+          "sum": 103,
+          "coverage": 6
+        },
+        "alanya": {
+          "sum": 64,
+          "coverage": 5
+        },
+        "fenerbahce": {
+          "sum": 62,
+          "coverage": 5
+        },
+        "trabzon": {
+          "sum": 73,
+          "coverage": 6
+        },
+        "kasimpasa": {
+          "sum": 81,
+          "coverage": 6
+        },
+        "rize": {
+          "sum": 81,
+          "coverage": 5
+        },
+        "gaziantep": {
+          "sum": 48,
+          "coverage": 4
+        },
+        "corum": {
+          "sum": 97,
+          "coverage": 6
+        },
+        "basaksehir": {
+          "sum": 77,
+          "coverage": 6
+        },
+        "gencler": {
+          "sum": 111,
+          "coverage": 6
+        },
+        "erzurum": {
+          "sum": 61,
+          "coverage": 5
+        },
+        "konya": {
+          "sum": 86,
+          "coverage": 6
+        },
+        "samsun": {
+          "sum": 92,
+          "coverage": 6
+        },
+        "goztepe": {
+          "sum": 96,
+          "coverage": 5
+        },
+        "eyup": {
+          "sum": 87,
+          "coverage": 6
+        }
+      }
+    }
+  },
+  "insights": [
+    {
+      "id": "pas-var-puan-yok",
+      "team_id": "samsun",
+      "passes": 3138,
+      "points": 4,
+      "coverage": 6,
+      "played": 6
+    },
+    {
+      "id": "sut-cok-gol-nerede",
+      "team_id": "samsun",
+      "shots": 78,
+      "goals": 6,
+      "coverage": 6,
+      "played": 6
+    },
+    {
+      "id": "evde-aslan",
+      "team_id": "trabzon",
+      "home_points": 9,
+      "home_games": 3,
+      "away_points": 1,
+      "away_games": 3
+    }
+  ]
+}

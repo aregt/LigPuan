@@ -1,0 +1,25 @@
+{
+  "season": "2026-27",
+  "league": "Türkiye Süper Lig",
+  "note": "GOAL API 2026/27 Süper Lig puan tablosundaki 18 takımın 24 Eylül 2026 tarihinde doğrulanan açık kimlik eşlemesi.",
+  "teams": [
+    {"id": "amed", "name": "Amed", "code": "AM", "badge": "b1", "provider_ids": {"goal_api": "cmri0eyi3b6rolb07evqna1ua"}},
+    {"id": "galatasaray", "name": "Galatasaray", "code": "GS", "badge": "b2", "provider_ids": {"goal_api": "cmri0ey53b6kulb07e541svio"}},
+    {"id": "besiktas", "name": "Beşiktaş", "code": "BŞ", "badge": "b3", "provider_ids": {"goal_api": "cmri0ey51b6ktlb07w4ndafls"}},
+    {"id": "kocaeli", "name": "Kocaelispor", "code": "KO", "badge": "b4", "provider_ids": {"goal_api": "cmri0ey54b6kvlb07ft0hpp6u"}},
+    {"id": "alanya", "name": "Alanyaspor", "code": "AL", "badge": "b5", "provider_ids": {"goal_api": "cmri0ey3vb6k6lb07rhz5xl1r"}},
+    {"id": "fenerbahce", "name": "Fenerbahçe", "code": "FB", "badge": "b6", "provider_ids": {"goal_api": "cmri0ey3gb6jzlb07w6sj8iaq"}},
+    {"id": "trabzon", "name": "Trabzonspor", "code": "TS", "badge": "b7", "provider_ids": {"goal_api": "cmri0ey33b6jrlb07mo6ei5jt"}},
+    {"id": "kasimpasa", "name": "Kasımpaşa", "code": "KP", "badge": "b1", "provider_ids": {"goal_api": "cmri0ey3zb6k7lb07hhz7abnw"}},
+    {"id": "rize", "name": "Rizespor", "code": "RZ", "badge": "b2", "provider_ids": {"goal_api": "cmri0ey58b6kylb07cdby6u57"}},
+    {"id": "gaziantep", "name": "Gaziantep FK", "code": "GF", "badge": "b3", "provider_ids": {"goal_api": "cmri0ey50b6kslb07x40z3f6r"}},
+    {"id": "corum", "name": "Çorum", "code": "ÇR", "badge": "b4", "provider_ids": {"goal_api": "cmri0eyi7b6rqlb073qzhmz8u"}},
+    {"id": "basaksehir", "name": "İstanbul Başakşehir", "code": "BŞH", "badge": "b5", "provider_ids": {"goal_api": "cmri0ey42b6k9lb077w5r48k6"}},
+    {"id": "gencler", "name": "Gençlerbirliği", "code": "GB", "badge": "b6", "provider_ids": {"goal_api": "cmri0ey45b6kclb07rgkhialg"}},
+    {"id": "erzurum", "name": "Erzurumspor FK", "code": "ER", "badge": "b7", "provider_ids": {"goal_api": "cmri0eyh5b6r3lb07v5d8kf69"}},
+    {"id": "konya", "name": "Konyaspor", "code": "KN", "badge": "b1", "provider_ids": {"goal_api": "cmr7huer33mv7rx066mxmvv5i"}},
+    {"id": "samsun", "name": "Samsunspor", "code": "SM", "badge": "b2", "provider_ids": {"goal_api": "cmri0ey57b6kxlb075axjnmiq"}},
+    {"id": "goztepe", "name": "Göztepe", "code": "GZ", "badge": "b3", "provider_ids": {"goal_api": "cmri0ey40b6k8lb07gosnnsnl"}},
+    {"id": "eyup", "name": "Eyüpspor", "code": "EY", "badge": "b4", "provider_ids": {"goal_api": "cmri0ey55b6kwlb07tw98amt8"}}
+  ]
+}

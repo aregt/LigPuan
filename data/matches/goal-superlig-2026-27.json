@@ -1,0 +1,1805 @@
+{
+  "season": "2026-27",
+  "league": "Türkiye Süper Lig",
+  "provider": "goal_api",
+  "note": "GOAL API'den çekilen maç kayıtları. Aynı sağlayıcı kimliği ikinci kez eklenmez.",
+  "match_count": 54,
+  "matches": [
+    {
+      "match_id": "goal-cmt71reqlsvtqt10776p0umxq",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-20",
+      "home_team_id": "goztepe",
+      "away_team_id": "rize",
+      "home_goals": 2,
+      "away_goals": 2,
+      "stats": {
+        "goztepe": {
+          "corners": 4,
+          "shots": 25,
+          "shots_on_target": 10,
+          "fouls": 15,
+          "offsides": 3,
+          "yellow_cards": 5,
+          "saves": 2,
+          "passes": 274,
+          "accurate_passes": 205
+        },
+        "rize": {
+          "corners": 3,
+          "shots": 11,
+          "shots_on_target": 4,
+          "fouls": 9,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 8,
+          "passes": 424,
+          "accurate_passes": 336
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71reswsvuqt1072ra9e8u2",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-20",
+      "home_team_id": "amed",
+      "away_team_id": "besiktas",
+      "home_goals": 3,
+      "away_goals": 2,
+      "stats": {
+        "amed": {
+          "corners": 1,
+          "shots": 10,
+          "shots_on_target": 8,
+          "fouls": 25,
+          "offsides": 0,
+          "yellow_cards": 9,
+          "red_cards": 1,
+          "saves": 5,
+          "passes": 271,
+          "accurate_passes": 200
+        },
+        "besiktas": {
+          "corners": 10,
+          "shots": 21,
+          "shots_on_target": 8,
+          "fouls": 7,
+          "offsides": 2,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "saves": 5,
+          "passes": 593,
+          "accurate_passes": 529
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71req0svtet1076ug0jq7p",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-20",
+      "home_team_id": "erzurum",
+      "away_team_id": "samsun",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "erzurum": {
+          "corners": 3,
+          "shots": 8,
+          "shots_on_target": 2,
+          "fouls": 9,
+          "offsides": 0,
+          "possession": 42.0,
+          "yellow_cards": 3,
+          "saves": 2,
+          "passes": 414,
+          "accurate_passes": 340
+        },
+        "samsun": {
+          "corners": 5,
+          "shots": 8,
+          "shots_on_target": 2,
+          "fouls": 11,
+          "offsides": 2,
+          "possession": 58.0,
+          "yellow_cards": 2,
+          "saves": 1,
+          "passes": 580,
+          "accurate_passes": 504
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71reqdsvtmt107ef0ka5ab",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-20",
+      "home_team_id": "fenerbahce",
+      "away_team_id": "eyup",
+      "home_goals": 8,
+      "away_goals": 0,
+      "stats": {
+        "fenerbahce": {
+          "corners": 8,
+          "shots": 24,
+          "shots_on_target": 13,
+          "fouls": 11,
+          "offsides": 5,
+          "possession": 54.0,
+          "yellow_cards": 1,
+          "saves": 6,
+          "passes": 462,
+          "accurate_passes": 420
+        },
+        "eyup": {
+          "corners": 6,
+          "shots": 17,
+          "shots_on_target": 6,
+          "fouls": 7,
+          "offsides": 0,
+          "possession": 46.0,
+          "yellow_cards": 1,
+          "saves": 5,
+          "passes": 383,
+          "accurate_passes": 331
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71rerhsvu4t1072bcikrak",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-19",
+      "home_team_id": "trabzon",
+      "away_team_id": "galatasaray",
+      "home_goals": 4,
+      "away_goals": 0,
+      "stats": {
+        "trabzon": {
+          "corners": 1,
+          "shots": 7,
+          "shots_on_target": 4,
+          "fouls": 15,
+          "offsides": 3,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "saves": 2,
+          "passes": 371,
+          "accurate_passes": 299
+        },
+        "galatasaray": {
+          "corners": 5,
+          "shots": 13,
+          "shots_on_target": 3,
+          "fouls": 18,
+          "offsides": 0,
+          "yellow_cards": 1,
+          "red_cards": 1,
+          "saves": 0,
+          "passes": 430,
+          "accurate_passes": 350
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71ret4svust107atjddt85",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-19",
+      "home_team_id": "basaksehir",
+      "away_team_id": "gencler",
+      "home_goals": 4,
+      "away_goals": 0,
+      "stats": {
+        "basaksehir": {
+          "corners": 3,
+          "shots": 18,
+          "shots_on_target": 11,
+          "fouls": 11,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 0,
+          "passes": 486,
+          "accurate_passes": 428
+        },
+        "gencler": {
+          "corners": 7,
+          "shots": 7,
+          "shots_on_target": 0,
+          "fouls": 9,
+          "offsides": 3,
+          "yellow_cards": 1,
+          "saves": 7,
+          "passes": 417,
+          "accurate_passes": 350
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71rer7svu0t107pdx4yt8f",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-19",
+      "home_team_id": "kocaeli",
+      "away_team_id": "gaziantep",
+      "home_goals": 2,
+      "away_goals": 0,
+      "stats": {
+        "kocaeli": {
+          "corners": 1,
+          "shots": 19,
+          "shots_on_target": 5,
+          "fouls": 15,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 3,
+          "passes": 448,
+          "accurate_passes": 360
+        },
+        "gaziantep": {
+          "corners": 2,
+          "shots": 16,
+          "shots_on_target": 3,
+          "fouls": 12,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 3,
+          "passes": 429,
+          "accurate_passes": 345
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71retjsvuyt107z81csic3",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-19",
+      "home_team_id": "corum",
+      "away_team_id": "alanya",
+      "home_goals": 1,
+      "away_goals": 2,
+      "stats": {
+        "corum": {
+          "corners": 3,
+          "shots": 12,
+          "shots_on_target": 5,
+          "fouls": 20,
+          "offsides": 1,
+          "yellow_cards": 5,
+          "saves": 3,
+          "passes": 601,
+          "accurate_passes": 532
+        },
+        "alanya": {
+          "corners": 3,
+          "shots": 9,
+          "shots_on_target": 5,
+          "fouls": 7,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "saves": 4,
+          "passes": 299,
+          "accurate_passes": 237
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71rer0svtwt107do6xnhbe",
+      "provider": "goal_api",
+      "round": 6,
+      "date": "2026-09-18",
+      "home_team_id": "kasimpasa",
+      "away_team_id": "konya",
+      "home_goals": 0,
+      "away_goals": 0,
+      "stats": {
+        "kasimpasa": {
+          "corners": 6,
+          "shots": 13,
+          "shots_on_target": 2,
+          "fouls": 17,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 363,
+          "accurate_passes": 280
+        },
+        "konya": {
+          "corners": 4,
+          "shots": 11,
+          "shots_on_target": 4,
+          "fouls": 16,
+          "offsides": 3,
+          "yellow_cards": 4,
+          "saves": 2,
+          "passes": 415,
+          "accurate_passes": 330
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgfjsnfvt107ifq3nv7m",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-14",
+      "home_team_id": "gaziantep",
+      "away_team_id": "fenerbahce",
+      "home_goals": 0,
+      "away_goals": 0,
+      "stats": {
+        "gaziantep": {
+          "corners": 6,
+          "possession": 32.0
+        },
+        "fenerbahce": {
+          "corners": 6,
+          "possession": 68.0
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgeysnfjt107yjh2f9gd",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-13",
+      "home_team_id": "amed",
+      "away_team_id": "basaksehir",
+      "home_goals": 5,
+      "away_goals": 0,
+      "stats": {
+        "amed": {
+          "shots": 18,
+          "shots_on_target": 5,
+          "fouls": 8,
+          "offsides": 6,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 350,
+          "accurate_passes": 291
+        },
+        "basaksehir": {
+          "shots": 7,
+          "shots_on_target": 1,
+          "fouls": 8,
+          "offsides": 0,
+          "yellow_cards": 2,
+          "saves": 1,
+          "passes": 455,
+          "accurate_passes": 382
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgfcsnfrt107kpoym05z",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-13",
+      "home_team_id": "galatasaray",
+      "away_team_id": "kocaeli",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "galatasaray": {
+          "corners": 16,
+          "shots": 29,
+          "shots_on_target": 9,
+          "fouls": 13,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "saves": 1,
+          "passes": 479,
+          "accurate_passes": 423
+        },
+        "kocaeli": {
+          "corners": 3,
+          "shots": 12,
+          "shots_on_target": 1,
+          "fouls": 10,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 8,
+          "passes": 322,
+          "accurate_passes": 245
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgfqsnfzt107hvg1bok0",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-13",
+      "home_team_id": "gencler",
+      "away_team_id": "kasimpasa",
+      "home_goals": 1,
+      "away_goals": 2,
+      "stats": {
+        "gencler": {
+          "corners": 8,
+          "shots": 15,
+          "shots_on_target": 5,
+          "fouls": 18,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes": 297,
+          "accurate_passes": 239
+        },
+        "kasimpasa": {
+          "corners": 9,
+          "shots": 16,
+          "shots_on_target": 3,
+          "fouls": 14,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 425,
+          "accurate_passes": 359
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgersnfft107882xsfzb",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-12",
+      "home_team_id": "alanya",
+      "away_team_id": "goztepe",
+      "home_goals": 2,
+      "away_goals": 2,
+      "stats": {
+        "alanya": {
+          "corners": 9,
+          "shots": 20,
+          "shots_on_target": 4,
+          "fouls": 8,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "saves": 2,
+          "passes": 445,
+          "accurate_passes": 365
+        },
+        "goztepe": {
+          "corners": 3,
+          "shots": 14,
+          "shots_on_target": 4,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "saves": 2,
+          "passes": 253,
+          "accurate_passes": 184
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgftsng1t107a4v42tit",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-12",
+      "home_team_id": "konya",
+      "away_team_id": "trabzon",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "konya": {
+          "corners": 3,
+          "shots": 11,
+          "shots_on_target": 5,
+          "fouls": 16,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 229,
+          "accurate_passes": 163
+        },
+        "trabzon": {
+          "corners": 7,
+          "shots": 15,
+          "shots_on_target": 4,
+          "fouls": 9,
+          "offsides": 3,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 571,
+          "accurate_passes": 519
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgfasnfpt107qh2pgme0",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-12",
+      "home_team_id": "eyup",
+      "away_team_id": "rize",
+      "home_goals": 0,
+      "away_goals": 2,
+      "stats": {
+        "eyup": {
+          "corners": 8,
+          "possession": 50.0,
+          "shots": 26,
+          "shots_on_target": 5,
+          "fouls": 13,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "saves": 2,
+          "passes": 346,
+          "accurate_passes": 289
+        },
+        "rize": {
+          "corners": 2,
+          "possession": 50.0,
+          "shots": 9,
+          "shots_on_target": 4,
+          "fouls": 10,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "red_cards": 1,
+          "saves": 5,
+          "passes": 368,
+          "accurate_passes": 310
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgfxsng3t107h3km4bds",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-12",
+      "home_team_id": "samsun",
+      "away_team_id": "corum",
+      "home_goals": 1,
+      "away_goals": 5,
+      "stats": {
+        "samsun": {
+          "corners": 8,
+          "shots": 18,
+          "shots_on_target": 4,
+          "fouls": 12,
+          "offsides": 3,
+          "yellow_cards": 0,
+          "saves": 3,
+          "passes": 581,
+          "accurate_passes": 515
+        },
+        "corum": {
+          "corners": 2,
+          "shots": 12,
+          "shots_on_target": 8,
+          "fouls": 18,
+          "offsides": 0,
+          "yellow_cards": 3,
+          "saves": 3,
+          "passes": 397,
+          "accurate_passes": 334
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt71qgf3snflt10791lsk8j8",
+      "provider": "goal_api",
+      "round": 5,
+      "date": "2026-09-11",
+      "home_team_id": "besiktas",
+      "away_team_id": "erzurum",
+      "home_goals": 3,
+      "away_goals": 0,
+      "stats": {
+        "besiktas": {
+          "corners": 10,
+          "possession": 73.0
+        },
+        "erzurum": {
+          "corners": 1,
+          "possession": 27.0
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i62ff3zbt107qq8f2bgq",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-07",
+      "home_team_id": "goztepe",
+      "away_team_id": "gaziantep",
+      "home_goals": 2,
+      "away_goals": 4,
+      "stats": {
+        "goztepe": {
+          "corners": 8,
+          "possession": 49.0
+        },
+        "gaziantep": {
+          "corners": 3,
+          "possession": 51.0
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i640f3zjt1074idolczj",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-07",
+      "home_team_id": "rize",
+      "away_team_id": "alanya",
+      "home_goals": 0,
+      "away_goals": 1,
+      "stats": {
+        "rize": {
+          "corners": 8,
+          "possession": 64.0
+        },
+        "alanya": {
+          "corners": 7,
+          "possession": 36.0
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i632f3zft1076ijw1bds",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-06",
+      "home_team_id": "kocaeli",
+      "away_team_id": "samsun",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "kocaeli": {
+          "corners": 4,
+          "shots": 9,
+          "shots_on_target": 4,
+          "fouls": 13,
+          "yellow_cards": 1,
+          "saves": 4,
+          "passes": 425,
+          "accurate_passes": 342
+        },
+        "samsun": {
+          "corners": 4,
+          "shots": 19,
+          "shots_on_target": 4,
+          "fouls": 14,
+          "yellow_cards": 0,
+          "saves": 3,
+          "passes": 549,
+          "accurate_passes": 466
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i64rf3znt107ogvr0895",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-06",
+      "home_team_id": "trabzon",
+      "away_team_id": "gencler",
+      "home_goals": 5,
+      "away_goals": 0,
+      "stats": {
+        "trabzon": {
+          "corners": 6,
+          "shots": 23,
+          "shots_on_target": 13,
+          "fouls": 12,
+          "offsides": 0,
+          "possession": 49.0,
+          "yellow_cards": 3,
+          "saves": 5,
+          "passes": 405,
+          "accurate_passes": 354
+        },
+        "gencler": {
+          "corners": 3,
+          "shots": 14,
+          "shots_on_target": 6,
+          "fouls": 12,
+          "offsides": 3,
+          "possession": 51.0,
+          "yellow_cards": 1,
+          "saves": 8,
+          "passes": 409,
+          "accurate_passes": 372
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i5zbf3yvt107b0o06vzy",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-06",
+      "home_team_id": "corum",
+      "away_team_id": "eyup",
+      "home_goals": 3,
+      "away_goals": 0,
+      "stats": {
+        "corum": {
+          "corners": 8,
+          "shots": 19,
+          "shots_on_target": 9,
+          "fouls": 15,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 4,
+          "passes": 570,
+          "accurate_passes": 524
+        },
+        "eyup": {
+          "corners": 3,
+          "shots": 8,
+          "shots_on_target": 4,
+          "fouls": 8,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "saves": 6,
+          "passes": 387,
+          "accurate_passes": 342
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i62tf3zdt107thy8wbv3",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-06",
+      "home_team_id": "kasimpasa",
+      "away_team_id": "amed",
+      "home_goals": 2,
+      "away_goals": 2,
+      "stats": {
+        "kasimpasa": {
+          "corners": 2,
+          "shots": 14,
+          "shots_on_target": 7,
+          "fouls": 15,
+          "offsides": 1,
+          "yellow_cards": 5,
+          "saves": 2,
+          "passes": 393,
+          "accurate_passes": 315
+        },
+        "amed": {
+          "corners": 9,
+          "shots": 14,
+          "shots_on_target": 4,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "saves": 5,
+          "passes": 488,
+          "accurate_passes": 412
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i61yf3z9t107xdjdr77q",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-05",
+      "home_team_id": "fenerbahce",
+      "away_team_id": "besiktas",
+      "home_goals": 1,
+      "away_goals": 2,
+      "stats": {
+        "fenerbahce": {
+          "corners": 2,
+          "shots": 9,
+          "shots_on_target": 2,
+          "fouls": 18,
+          "offsides": 2,
+          "yellow_cards": 4,
+          "saves": 4,
+          "passes": 425,
+          "accurate_passes": 348
+        },
+        "besiktas": {
+          "corners": 7,
+          "shots": 14,
+          "shots_on_target": 6,
+          "fouls": 21,
+          "offsides": 4,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes": 417,
+          "accurate_passes": 344
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i61sf3z7t107dlyqduvq",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-05",
+      "home_team_id": "erzurum",
+      "away_team_id": "konya",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "erzurum": {
+          "corners": 4,
+          "shots": 12,
+          "shots_on_target": 4,
+          "fouls": 13,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 273,
+          "accurate_passes": 207
+        },
+        "konya": {
+          "corners": 3,
+          "shots": 14,
+          "shots_on_target": 1,
+          "fouls": 11,
+          "offsides": 0,
+          "yellow_cards": 4,
+          "saves": 3,
+          "passes": 515,
+          "accurate_passes": 449
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt63i5ylf3ypt107iohkb33j",
+      "provider": "goal_api",
+      "round": 4,
+      "date": "2026-09-04",
+      "home_team_id": "basaksehir",
+      "away_team_id": "galatasaray",
+      "home_goals": 2,
+      "away_goals": 3,
+      "stats": {
+        "basaksehir": {
+          "corners": 6,
+          "shots": 12,
+          "shots_on_target": 3,
+          "fouls": 14,
+          "offsides": 2,
+          "possession": 48.0,
+          "yellow_cards": 2,
+          "red_cards": 1,
+          "saves": 3,
+          "passes": 397,
+          "accurate_passes": 326
+        },
+        "galatasaray": {
+          "corners": 5,
+          "shots": 13,
+          "shots_on_target": 6,
+          "fouls": 15,
+          "offsides": 4,
+          "possession": 52.0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "saves": 2,
+          "passes": 435,
+          "accurate_passes": 373
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt1fhtyk770opd07vfx29vid",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-31",
+      "home_team_id": "amed",
+      "away_team_id": "trabzon",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "amed": {
+          "corners": 2,
+          "shots": 17,
+          "shots_on_target": 7,
+          "fouls": 18,
+          "offsides": 4,
+          "yellow_cards": 5,
+          "saves": 4,
+          "passes": 352,
+          "accurate_passes": 275
+        },
+        "trabzon": {
+          "corners": 5,
+          "shots": 8,
+          "shots_on_target": 5,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 3,
+          "saves": 5,
+          "passes": 525,
+          "accurate_passes": 448
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmt1fhtza770qpd07pviwy7ov",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-31",
+      "home_team_id": "besiktas",
+      "away_team_id": "corum",
+      "home_goals": 6,
+      "away_goals": 2,
+      "stats": {
+        "besiktas": {
+          "corners": 8,
+          "shots": 18,
+          "shots_on_target": 7,
+          "fouls": 9,
+          "offsides": 5,
+          "yellow_cards": 2,
+          "saves": 1,
+          "passes": 409,
+          "accurate_passes": 345
+        },
+        "corum": {
+          "corners": 6,
+          "shots": 11,
+          "shots_on_target": 3,
+          "fouls": 11,
+          "offsides": 4,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes": 387,
+          "accurate_passes": 327
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp4jj69cwopg07zkaxvbau",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-30",
+      "home_team_id": "samsun",
+      "away_team_id": "fenerbahce",
+      "home_goals": 0,
+      "away_goals": 2,
+      "stats": {
+        "samsun": {
+          "corners": 1,
+          "shots": 6,
+          "shots_on_target": 0,
+          "fouls": 13,
+          "offsides": 3,
+          "yellow_cards": 0,
+          "saves": 5,
+          "passes": 552,
+          "accurate_passes": 495
+        },
+        "fenerbahce": {
+          "corners": 6,
+          "shots": 15,
+          "shots_on_target": 7,
+          "fouls": 18,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 0,
+          "passes": 404,
+          "accurate_passes": 345
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp4jjk9cwqpg07swkj2rsp",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-30",
+      "home_team_id": "basaksehir",
+      "away_team_id": "kasimpasa",
+      "home_goals": 1,
+      "away_goals": 1,
+      "stats": {
+        "basaksehir": {
+          "corners": 5,
+          "shots": 12,
+          "shots_on_target": 2,
+          "fouls": 11,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "saves": 2,
+          "passes": 641,
+          "accurate_passes": 562
+        },
+        "kasimpasa": {
+          "corners": 3,
+          "shots": 12,
+          "shots_on_target": 3,
+          "fouls": 13,
+          "offsides": 3,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 358,
+          "accurate_passes": 274
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp4dk39bxwpg07rb8q101d",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-30",
+      "home_team_id": "eyup",
+      "away_team_id": "alanya",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "eyup": {
+          "corners": 1,
+          "shots": 11,
+          "shots_on_target": 4,
+          "fouls": 16,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes": 484,
+          "accurate_passes": 418
+        },
+        "alanya": {
+          "corners": 2,
+          "shots": 7,
+          "shots_on_target": 2,
+          "fouls": 22,
+          "offsides": 3,
+          "yellow_cards": 1,
+          "saves": 2,
+          "passes": 291,
+          "accurate_passes": 225
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp4y1x9f1rpg07axvhg0u6",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-29",
+      "home_team_id": "galatasaray",
+      "away_team_id": "goztepe",
+      "home_goals": 3,
+      "away_goals": 2,
+      "stats": {
+        "galatasaray": {
+          "corners": 6,
+          "shots": 34,
+          "shots_on_target": 11,
+          "fouls": 5,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 2,
+          "passes": 466,
+          "accurate_passes": 391
+        },
+        "goztepe": {
+          "corners": 2,
+          "shots": 10,
+          "shots_on_target": 4,
+          "fouls": 12,
+          "offsides": 6,
+          "yellow_cards": 2,
+          "saves": 8,
+          "passes": 232,
+          "accurate_passes": 143
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp4y399f1tpg07pa34l89i",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-29",
+      "home_team_id": "gaziantep",
+      "away_team_id": "rize",
+      "home_goals": 1,
+      "away_goals": 2,
+      "stats": {
+        "gaziantep": {
+          "corners": 8,
+          "shots": 16,
+          "shots_on_target": 4,
+          "fouls": 10,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 2,
+          "passes": 491,
+          "accurate_passes": 405
+        },
+        "rize": {
+          "corners": 0,
+          "shots": 10,
+          "shots_on_target": 4,
+          "fouls": 17,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 4,
+          "passes": 402,
+          "accurate_passes": 326
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp4v979ejlpg07t4wbo3ug",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-29",
+      "home_team_id": "konya",
+      "away_team_id": "kocaeli",
+      "home_goals": 1,
+      "away_goals": 2,
+      "stats": {
+        "konya": {
+          "corners": 1,
+          "shots": 10,
+          "shots_on_target": 0,
+          "fouls": 16,
+          "offsides": 0,
+          "yellow_cards": 1,
+          "red_cards": 1,
+          "saves": 6,
+          "passes": 401,
+          "accurate_passes": 322
+        },
+        "kocaeli": {
+          "corners": 4,
+          "shots": 15,
+          "shots_on_target": 7,
+          "fouls": 12,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "saves": 0,
+          "passes": 493,
+          "accurate_passes": 432
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsvp48di9b77pg07515mhu2n",
+      "provider": "goal_api",
+      "round": 3,
+      "date": "2026-08-28",
+      "home_team_id": "gencler",
+      "away_team_id": "erzurum",
+      "home_goals": 1,
+      "away_goals": 1,
+      "stats": {
+        "gencler": {
+          "corners": 3,
+          "shots": 16,
+          "shots_on_target": 5,
+          "fouls": 15,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "saves": 3,
+          "passes": 403,
+          "accurate_passes": 320
+        },
+        "erzurum": {
+          "corners": 5,
+          "shots": 9,
+          "shots_on_target": 4,
+          "fouls": 11,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 3,
+          "passes": 454,
+          "accurate_passes": 365
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mvqmu5hepn06dqu8eg0c",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-24",
+      "home_team_id": "kocaeli",
+      "away_team_id": "amed",
+      "home_goals": 2,
+      "away_goals": 0,
+      "stats": {
+        "kocaeli": {
+          "corners": 3,
+          "shots": 11,
+          "shots_on_target": 3,
+          "fouls": 9,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "saves": 1,
+          "passes": 373,
+          "accurate_passes": 289
+        },
+        "amed": {
+          "corners": 7,
+          "shots": 12,
+          "shots_on_target": 1,
+          "fouls": 16,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "saves": 1,
+          "passes": 467,
+          "accurate_passes": 389
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mr0qu50spn06v25bit60",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-23",
+      "home_team_id": "goztepe",
+      "away_team_id": "gencler",
+      "home_goals": 0,
+      "away_goals": 1,
+      "stats": {
+        "goztepe": {
+          "shots": 16,
+          "shots_on_target": 6,
+          "fouls": 15,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 357,
+          "accurate_passes": 260
+        },
+        "gencler": {
+          "shots": 10,
+          "shots_on_target": 2,
+          "fouls": 12,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "saves": 6,
+          "passes": 358,
+          "accurate_passes": 266
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mre7u53bpn06fmrffoe0",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-23",
+      "home_team_id": "alanya",
+      "away_team_id": "besiktas",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "alanya": {
+          "corners": 7,
+          "shots": 9,
+          "shots_on_target": 3,
+          "fouls": 14,
+          "offsides": 2,
+          "saves": 6,
+          "passes": 292,
+          "accurate_passes": 214
+        },
+        "besiktas": {
+          "corners": 7,
+          "shots": 14,
+          "shots_on_target": 6,
+          "fouls": 14,
+          "offsides": 3,
+          "saves": 2,
+          "passes": 556,
+          "accurate_passes": 482
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mph5u4nipn06cf7lhflj",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-23",
+      "home_team_id": "eyup",
+      "away_team_id": "gaziantep",
+      "home_goals": 0,
+      "away_goals": 1,
+      "stats": {
+        "eyup": {
+          "shots": 8,
+          "shots_on_target": 1,
+          "fouls": 15,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "saves": 1,
+          "passes": 416,
+          "accurate_passes": 356
+        },
+        "gaziantep": {
+          "shots": 9,
+          "shots_on_target": 2,
+          "fouls": 17,
+          "offsides": 5,
+          "yellow_cards": 1,
+          "red_cards": 1,
+          "saves": 1,
+          "passes": 347,
+          "accurate_passes": 286
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mphxu4nopn06rsay52b6",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-23",
+      "home_team_id": "trabzon",
+      "away_team_id": "basaksehir",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "trabzon": {
+          "corners": 5,
+          "shots": 19,
+          "shots_on_target": 8,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "saves": 2,
+          "passes": 451,
+          "accurate_passes": 400
+        },
+        "basaksehir": {
+          "corners": 1,
+          "shots": 9,
+          "shots_on_target": 3,
+          "fouls": 17,
+          "offsides": 0,
+          "yellow_cards": 3,
+          "saves": 7,
+          "passes": 384,
+          "accurate_passes": 328
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4me92u30cpn06oay0tsnt",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-22",
+      "home_team_id": "fenerbahce",
+      "away_team_id": "konya",
+      "home_goals": 4,
+      "away_goals": 2,
+      "stats": {
+        "fenerbahce": {
+          "shots": 18,
+          "shots_on_target": 8,
+          "fouls": 8,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "saves": 6,
+          "passes": 366,
+          "accurate_passes": 335
+        },
+        "konya": {
+          "shots": 15,
+          "shots_on_target": 7,
+          "fouls": 9,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 376,
+          "accurate_passes": 336
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mbunu2j3pn06kvldr4qw",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-22",
+      "home_team_id": "corum",
+      "away_team_id": "kasimpasa",
+      "home_goals": 0,
+      "away_goals": 1,
+      "stats": {
+        "corum": {
+          "corners": 7,
+          "shots": 16,
+          "shots_on_target": 2,
+          "fouls": 12,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 0,
+          "passes": 720,
+          "accurate_passes": 656
+        },
+        "kasimpasa": {
+          "corners": 0,
+          "shots": 6,
+          "shots_on_target": 1,
+          "fouls": 13,
+          "offsides": 0,
+          "yellow_cards": 3,
+          "saves": 2,
+          "passes": 246,
+          "accurate_passes": 176
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4mbxsu2jipn06g42pmqbu",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-22",
+      "home_team_id": "rize",
+      "away_team_id": "samsun",
+      "home_goals": 0,
+      "away_goals": 2,
+      "stats": {
+        "rize": {
+          "corners": 10,
+          "shots": 28,
+          "shots_on_target": 8,
+          "fouls": 13,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 520,
+          "accurate_passes": 460
+        },
+        "samsun": {
+          "corners": 1,
+          "shots": 6,
+          "shots_on_target": 3,
+          "fouls": 11,
+          "offsides": 0,
+          "yellow_cards": 1,
+          "saves": 8,
+          "passes": 365,
+          "accurate_passes": 284
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsp4ls9mtz7tpn06ez5bfhl9",
+      "provider": "goal_api",
+      "round": 2,
+      "date": "2026-08-21",
+      "home_team_id": "erzurum",
+      "away_team_id": "galatasaray",
+      "home_goals": 0,
+      "away_goals": 4,
+      "stats": {
+        "erzurum": {
+          "corners": 2,
+          "shots": 12,
+          "shots_on_target": 4,
+          "fouls": 11,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 0,
+          "passes": 505,
+          "accurate_passes": 442
+        },
+        "galatasaray": {
+          "corners": 2,
+          "shots": 10,
+          "shots_on_target": 4,
+          "fouls": 12,
+          "offsides": 3,
+          "yellow_cards": 0,
+          "saves": 4,
+          "passes": 537,
+          "accurate_passes": 483
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsmgy131kcu4pn067b38gmjy",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-17",
+      "home_team_id": "samsun",
+      "away_team_id": "goztepe",
+      "home_goals": 3,
+      "away_goals": 3,
+      "stats": {
+        "samsun": {
+          "corners": 4,
+          "shots": 21,
+          "shots_on_target": 3,
+          "fouls": 8,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 4,
+          "passes": 511,
+          "accurate_passes": 411
+        },
+        "goztepe": {
+          "corners": 8,
+          "shots": 20,
+          "shots_on_target": 7,
+          "fouls": 13,
+          "offsides": 1,
+          "yellow_cards": 4,
+          "saves": 0,
+          "passes": 231,
+          "accurate_passes": 136
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsl1gojysidzoe07fl9ujqgs",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-16",
+      "home_team_id": "amed",
+      "away_team_id": "erzurum",
+      "home_goals": 3,
+      "away_goals": 0,
+      "stats": {
+        "amed": {
+          "corners": 4,
+          "shots": 13,
+          "shots_on_target": 5,
+          "fouls": 10,
+          "offsides": 1,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 439,
+          "accurate_passes": 384
+        },
+        "erzurum": {
+          "corners": 4,
+          "shots": 5,
+          "shots_on_target": 1,
+          "fouls": 12,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "saves": 2,
+          "passes": 500,
+          "accurate_passes": 435
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsl1goo9sieloe07cfecy61y",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-16",
+      "home_team_id": "besiktas",
+      "away_team_id": "eyup",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "besiktas": {
+          "corners": 8,
+          "shots": 19,
+          "shots_on_target": 5,
+          "fouls": 20,
+          "offsides": 4,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "saves": 1,
+          "passes": 524,
+          "accurate_passes": 461
+        },
+        "eyup": {
+          "corners": 2,
+          "shots": 4,
+          "shots_on_target": 1,
+          "fouls": 14,
+          "offsides": 0,
+          "yellow_cards": 3,
+          "red_cards": 1,
+          "saves": 4,
+          "passes": 270,
+          "accurate_passes": 209
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsl1gn6asi45oe07eay9wyjp",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-16",
+      "home_team_id": "basaksehir",
+      "away_team_id": "kocaeli",
+      "home_goals": 2,
+      "away_goals": 0,
+      "stats": {
+        "basaksehir": {
+          "corners": 8,
+          "shots": 17,
+          "shots_on_target": 5,
+          "fouls": 14,
+          "offsides": 0,
+          "yellow_cards": 2,
+          "saves": 4,
+          "passes": 467,
+          "accurate_passes": 400
+        },
+        "kocaeli": {
+          "corners": 2,
+          "shots": 8,
+          "shots_on_target": 4,
+          "fouls": 14,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "saves": 3,
+          "passes": 459,
+          "accurate_passes": 384
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsjm054vc4egoe07c3fkgmnh",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-15",
+      "home_team_id": "gaziantep",
+      "away_team_id": "alanya",
+      "home_goals": 1,
+      "away_goals": 1,
+      "stats": {
+        "gaziantep": {
+          "corners": 0,
+          "shots": 13,
+          "shots_on_target": 5,
+          "fouls": 14,
+          "offsides": 3,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes": 541,
+          "accurate_passes": 464
+        },
+        "alanya": {
+          "corners": 4,
+          "shots": 11,
+          "shots_on_target": 2,
+          "fouls": 21,
+          "offsides": 4,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 331,
+          "accurate_passes": 265
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsjm055fc4eooe07fo1xl5yi",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-15",
+      "home_team_id": "gencler",
+      "away_team_id": "fenerbahce",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "gencler": {
+          "corners": 1,
+          "shots": 10,
+          "shots_on_target": 3,
+          "fouls": 7,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "saves": 10,
+          "passes": 281,
+          "accurate_passes": 215
+        },
+        "fenerbahce": {
+          "corners": 12,
+          "shots": 29,
+          "shots_on_target": 11,
+          "fouls": 10,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 682,
+          "accurate_passes": 614
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsjm02hhc3wsoe0762qm1jng",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-15",
+      "home_team_id": "kasimpasa",
+      "away_team_id": "trabzon",
+      "home_goals": 1,
+      "away_goals": 1,
+      "stats": {
+        "kasimpasa": {
+          "corners": 3,
+          "shots": 9,
+          "shots_on_target": 4,
+          "fouls": 17,
+          "offsides": 0,
+          "yellow_cards": 2,
+          "saves": 4,
+          "passes": 334,
+          "accurate_passes": 261
+        },
+        "trabzon": {
+          "corners": 10,
+          "shots": 13,
+          "shots_on_target": 5,
+          "fouls": 9,
+          "offsides": 2,
+          "yellow_cards": 0,
+          "saves": 3,
+          "passes": 477,
+          "accurate_passes": 408
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsjm02hoc3wuoe07fmf7hp8a",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-15",
+      "home_team_id": "konya",
+      "away_team_id": "rize",
+      "home_goals": 0,
+      "away_goals": 1,
+      "stats": {
+        "konya": {
+          "corners": 1,
+          "shots": 8,
+          "shots_on_target": 3,
+          "fouls": 12,
+          "offsides": 0,
+          "yellow_cards": 1,
+          "saves": 4,
+          "passes": 374,
+          "accurate_passes": 302
+        },
+        "rize": {
+          "corners": 7,
+          "shots": 13,
+          "shots_on_target": 5,
+          "fouls": 11,
+          "offsides": 2,
+          "yellow_cards": 4,
+          "saves": 3,
+          "passes": 481,
+          "accurate_passes": 427
+        }
+      }
+    },
+    {
+      "match_id": "goal-cmsi6jss92sd1m507l7q7k44x",
+      "provider": "goal_api",
+      "round": 1,
+      "date": "2026-08-14",
+      "home_team_id": "galatasaray",
+      "away_team_id": "corum",
+      "home_goals": 2,
+      "away_goals": 2,
+      "stats": {
+        "galatasaray": {
+          "corners": 8,
+          "shots": 38,
+          "shots_on_target": 13,
+          "fouls": 11,
+          "offsides": 4,
+          "possession": 64.0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "saves": 1,
+          "passes": 522,
+          "accurate_passes": 465
+        },
+        "corum": {
+          "corners": 1,
+          "shots": 8,
+          "shots_on_target": 3,
+          "fouls": 6,
+          "offsides": 4,
+          "possession": 36.0,
+          "yellow_cards": 0,
+          "red_cards": 1,
+          "saves": 11,
+          "passes": 307,
+          "accurate_passes": 216
+        }
+      }
+    }
+  ]
+}
