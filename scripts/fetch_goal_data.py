@@ -211,7 +211,7 @@ def build_team_lookup():
     return payload.get("season"), payload.get("league"), lookup
 
 
-def extract_team_stats(payload, notes=None, fixture_id="?"):
+def extract_team_stats(payload, notes=None, fixture_id="?", seen=None):
     """Only full-time rows count; absent or conflicting fields stay absent."""
     rows = ((payload.get("data") or {}).get("match") or {}).get("fullTime")
     if not isinstance(rows, list):
@@ -234,7 +234,10 @@ def extract_team_stats(payload, notes=None, fixture_id="?"):
     for row in rows:
         if not isinstance(row, dict):
             continue
-        field = STAT_LABELS.get(probe.normalized(row.get("type", "")))
+        label = probe.normalized(row.get("type", ""))
+        if seen is not None and label:
+            seen.add(label)
+        field = STAT_LABELS.get(label)
         if field is None or field in conflicts:
             continue
         home_value, away_value = value(row.get("home"), field == "possession"), value(row.get("away"), field == "possession")
@@ -327,12 +330,12 @@ def check_contradictions(match_id, home, away):
     return problems
 
 
-def fetch_match(client, fixture_id, home_id, away_id, notes):
+def fetch_match(client, fixture_id, home_id, away_id, notes, seen=None):
     """Tek maçın istatistiğini yerel takım değerlerine çevirir."""
     payload, error = client.get(f"/fixtures/{fixture_id}/statistics")
     if payload is None:
         raise FetchError(f"maç {fixture_id}: istatistik alınamadı ({error})")
-    home, away = extract_team_stats(payload, notes, fixture_id)
+    home, away = extract_team_stats(payload, notes, fixture_id, seen)
     red_note = None
     if "red_cards" not in home or "red_cards" not in away:
         resolution = probe.resolve_cards(client, fixture_id, payload, notes)
@@ -477,6 +480,7 @@ def run(client, today=None):
 
     fetched = []
     red_notes = []
+    seen_labels = set()
     field_hits = {local: 0 for _label, local in ROW_FIELDS}
     for match_id, fixture in to_fetch:
         home_pid, away_pid = fixture_sides(fixture)
@@ -492,7 +496,7 @@ def run(client, today=None):
         round_no = fixture_round(fixture)
         if round_no is None:
             raise FetchError(f"maç {match_id}: hafta bilgisi okunamadı; kayıt yayınlanmaz")
-        home, away, red_note = fetch_match(client, raw_id_for(match_id), home_id, away_id, notes)
+        home, away, red_note = fetch_match(client, raw_id_for(match_id), home_id, away_id, notes, seen_labels)
         if red_note:
             red_notes.append(f"maç {match_id}: {red_note}")
         for local in field_hits:
@@ -528,7 +532,12 @@ def run(client, today=None):
     goal_records = list(merged.values())
 
     if fetched and max(field_hits["shots"], field_hits["passes"], field_hits["corners"]) * 10 < len(fetched) * 8:
-        raise FetchError("çekilen maçların en az %80'inde temel istatistik yok; önceki yayın korundu")
+        labels = ", ".join(sorted(seen_labels)[:12]) or "istatistik satırı yok"
+        raise FetchError(
+            "çekilen maçların en az %80'inde temel istatistik yok; önceki yayın korundu "
+            f"(çekilen {len(fetched)} maç: şut {field_hits['shots']}, pas {field_hits['passes']}, "
+            f"korner {field_hits['corners']}; görülen etiketler: {labels})"
+        )
 
     map_season, league_label, teams = update_data.load_teams()
     if map_season != season:
