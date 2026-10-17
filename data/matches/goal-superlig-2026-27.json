@@ -3,7 +3,7 @@
   "league": "Türkiye Süper Lig",
   "provider": "goal_api",
   "note": "GOAL API'den çekilen maç kayıtları. Aynı sağlayıcı kimliği ikinci kez eklenmez.",
-  "match_count": 54,
+  "match_count": 68,
   "matches": [
     {
       "match_id": "goal-cmt71reqlsvtqt10776p0umxq",
@@ -37,7 +37,9 @@
           "passes": 424,
           "accurate_passes": 336
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71reswsvuqt1072ra9e8u2",
@@ -73,7 +75,9 @@
           "passes": 593,
           "accurate_passes": 529
         }
-      }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71req0svtet1076ug0jq7p",
@@ -109,7 +113,9 @@
           "passes": 580,
           "accurate_passes": 504
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71reqdsvtmt107ef0ka5ab",
@@ -145,7 +151,9 @@
           "passes": 383,
           "accurate_passes": 331
         }
-      }
+      },
+      "half_time_home_goals": 5,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71rerhsvu4t1072bcikrak",
@@ -181,7 +189,9 @@
           "passes": 430,
           "accurate_passes": 350
         }
-      }
+      },
+      "half_time_home_goals": 3,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71ret4svust107atjddt85",
@@ -215,7 +225,9 @@
           "passes": 417,
           "accurate_passes": 350
         }
-      }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71rer7svu0t107pdx4yt8f",
@@ -249,7 +261,9 @@
           "passes": 429,
           "accurate_passes": 345
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71retjsvuyt107z81csic3",
@@ -283,7 +297,9 @@
           "passes": 299,
           "accurate_passes": 237
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71rer0svtwt107do6xnhbe",
@@ -317,7 +333,9 @@
           "passes": 415,
           "accurate_passes": 330
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71qgfjsnfvt107ifq3nv7m",
@@ -337,7 +355,9 @@
           "corners": 6,
           "possession": 68.0
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71qgeysnfjt107yjh2f9gd",
@@ -369,7 +389,9 @@
           "passes": 455,
           "accurate_passes": 382
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71qgfcsnfrt107kpoym05z",
@@ -403,7 +425,9 @@
           "passes": 322,
           "accurate_passes": 245
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71qgfqsnfzt107hvg1bok0",
@@ -437,7 +461,9 @@
           "passes": 425,
           "accurate_passes": 359
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71qgersnfft107882xsfzb",
@@ -471,7 +497,9 @@
           "passes": 253,
           "accurate_passes": 184
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmt71qgftsng1t107a4v42tit",
@@ -505,7 +533,9 @@
           "passes": 571,
           "accurate_passes": 519
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt71qgfasnfpt107qh2pgme0",
@@ -543,7 +573,9 @@
           "passes": 368,
           "accurate_passes": 310
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmt71qgfxsng3t107h3km4bds",
@@ -577,7 +609,9 @@
           "passes": 397,
           "accurate_passes": 334
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 3
     },
     {
       "match_id": "goal-cmt71qgf3snflt10791lsk8j8",
@@ -597,7 +631,9 @@
           "corners": 1,
           "possession": 27.0
         }
-      }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i62ff3zbt107qq8f2bgq",
@@ -617,7 +653,9 @@
           "corners": 3,
           "possession": 51.0
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 4
     },
     {
       "match_id": "goal-cmt63i640f3zjt1074idolczj",
@@ -637,7 +675,9 @@
           "corners": 7,
           "possession": 36.0
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i632f3zft1076ijw1bds",
@@ -669,7 +709,9 @@
           "passes": 549,
           "accurate_passes": 466
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i64rf3znt107ogvr0895",
@@ -705,7 +747,9 @@
           "passes": 409,
           "accurate_passes": 372
         }
-      }
+      },
+      "half_time_home_goals": 3,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i5zbf3yvt107b0o06vzy",
@@ -739,7 +783,9 @@
           "passes": 387,
           "accurate_passes": 342
         }
-      }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i62tf3zdt107thy8wbv3",
@@ -773,7 +819,9 @@
           "passes": 488,
           "accurate_passes": 412
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i61yf3z9t107xdjdr77q",
@@ -807,7 +855,9 @@
           "passes": 417,
           "accurate_passes": 344
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmt63i61sf3z7t107dlyqduvq",
@@ -841,7 +891,9 @@
           "passes": 515,
           "accurate_passes": 449
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmt63i5ylf3ypt107iohkb33j",
@@ -879,7 +931,9 @@
           "passes": 435,
           "accurate_passes": 373
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmt1fhtyk770opd07vfx29vid",
@@ -913,7 +967,9 @@
           "passes": 525,
           "accurate_passes": 448
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmt1fhtza770qpd07pviwy7ov",
@@ -947,7 +1003,9 @@
           "passes": 387,
           "accurate_passes": 327
         }
-      }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsvp4jj69cwopg07zkaxvbau",
@@ -981,7 +1039,9 @@
           "passes": 404,
           "accurate_passes": 345
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsvp4jjk9cwqpg07swkj2rsp",
@@ -1015,7 +1075,9 @@
           "passes": 358,
           "accurate_passes": 274
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsvp4dk39bxwpg07rb8q101d",
@@ -1049,7 +1111,9 @@
           "passes": 291,
           "accurate_passes": 225
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsvp4y1x9f1rpg07axvhg0u6",
@@ -1083,7 +1147,9 @@
           "passes": 232,
           "accurate_passes": 143
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsvp4y399f1tpg07pa34l89i",
@@ -1117,7 +1183,9 @@
           "passes": 402,
           "accurate_passes": 326
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 2
     },
     {
       "match_id": "goal-cmsvp4v979ejlpg07t4wbo3ug",
@@ -1153,7 +1221,9 @@
           "passes": 493,
           "accurate_passes": 432
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsvp48di9b77pg07515mhu2n",
@@ -1187,7 +1257,9 @@
           "passes": 454,
           "accurate_passes": 365
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsp4mvqmu5hepn06dqu8eg0c",
@@ -1221,7 +1293,9 @@
           "passes": 467,
           "accurate_passes": 389
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsp4mr0qu50spn06v25bit60",
@@ -1253,7 +1327,9 @@
           "passes": 358,
           "accurate_passes": 266
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsp4mre7u53bpn06fmrffoe0",
@@ -1285,7 +1361,9 @@
           "passes": 556,
           "accurate_passes": 482
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsp4mph5u4nipn06cf7lhflj",
@@ -1319,7 +1397,9 @@
           "passes": 347,
           "accurate_passes": 286
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsp4mphxu4nopn06rsay52b6",
@@ -1353,7 +1433,9 @@
           "passes": 384,
           "accurate_passes": 328
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsp4me92u30cpn06oay0tsnt",
@@ -1385,7 +1467,9 @@
           "passes": 376,
           "accurate_passes": 336
         }
-      }
+      },
+      "half_time_home_goals": 3,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsp4mbunu2j3pn06kvldr4qw",
@@ -1419,7 +1503,9 @@
           "passes": 246,
           "accurate_passes": 176
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsp4mbxsu2jipn06g42pmqbu",
@@ -1453,7 +1539,9 @@
           "passes": 365,
           "accurate_passes": 284
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsp4ls9mtz7tpn06ez5bfhl9",
@@ -1487,7 +1575,9 @@
           "passes": 537,
           "accurate_passes": 483
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 3
     },
     {
       "match_id": "goal-cmsmgy131kcu4pn067b38gmjy",
@@ -1521,7 +1611,9 @@
           "passes": 231,
           "accurate_passes": 136
         }
-      }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsl1gojysidzoe07fl9ujqgs",
@@ -1555,7 +1647,9 @@
           "passes": 500,
           "accurate_passes": 435
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsl1goo9sieloe07cfecy61y",
@@ -1591,7 +1685,9 @@
           "passes": 270,
           "accurate_passes": 209
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsl1gn6asi45oe07eay9wyjp",
@@ -1625,7 +1721,9 @@
           "passes": 459,
           "accurate_passes": 384
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsjm054vc4egoe07c3fkgmnh",
@@ -1659,7 +1757,9 @@
           "passes": 331,
           "accurate_passes": 265
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsjm055fc4eooe07fo1xl5yi",
@@ -1693,7 +1793,9 @@
           "passes": 682,
           "accurate_passes": 614
         }
-      }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsjm02hhc3wsoe0762qm1jng",
@@ -1727,7 +1829,9 @@
           "passes": 477,
           "accurate_passes": 408
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     },
     {
       "match_id": "goal-cmsjm02hoc3wuoe07fmf7hp8a",
@@ -1761,7 +1865,9 @@
           "passes": 481,
           "accurate_passes": 427
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
     },
     {
       "match_id": "goal-cmsi6jss92sd1m507l7q7k44x",
@@ -1799,7 +1905,515 @@
           "passes": 307,
           "accurate_passes": 216
         }
-      }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74evdznl9zqu07babmcjtu",
+      "provider": "goal_api",
+      "round": 8,
+      "date": "2026-10-17",
+      "home_team_id": "fenerbahce",
+      "away_team_id": "alanya",
+      "home_goals": 3,
+      "away_goals": 0,
+      "stats": {
+        "fenerbahce": {
+          "corners": 4,
+          "shots": 24,
+          "shots_on_target": 7,
+          "fouls": 18,
+          "offsides": 3,
+          "yellow_cards": 1,
+          "saves": 4,
+          "passes": 532,
+          "accurate_passes": 476
+        },
+        "alanya": {
+          "corners": 3,
+          "shots": 13,
+          "shots_on_target": 5,
+          "fouls": 3,
+          "offsides": 2,
+          "yellow_cards": 0,
+          "saves": 5,
+          "passes": 365,
+          "accurate_passes": 313
+        }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74eprknjo8qu07wvy68bbz",
+      "provider": "goal_api",
+      "round": 8,
+      "date": "2026-10-17",
+      "home_team_id": "amed",
+      "away_team_id": "konya",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "amed": {
+          "corners": 7,
+          "shots": 13,
+          "shots_on_target": 4,
+          "fouls": 17,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 450,
+          "accurate_passes": 369
+        },
+        "konya": {
+          "corners": 2,
+          "shots": 4,
+          "shots_on_target": 1,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 3,
+          "saves": 4,
+          "passes": 411,
+          "accurate_passes": 325
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74eprpnjocqu07rgnuga77",
+      "provider": "goal_api",
+      "round": 8,
+      "date": "2026-10-17",
+      "home_team_id": "gencler",
+      "away_team_id": "galatasaray",
+      "home_goals": 0,
+      "away_goals": 1,
+      "stats": {
+        "gencler": {
+          "corners": 9,
+          "shots": 19,
+          "shots_on_target": 6,
+          "fouls": 12,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "saves": 4,
+          "passes": 231,
+          "accurate_passes": 145
+        },
+        "galatasaray": {
+          "corners": 10,
+          "shots": 18,
+          "shots_on_target": 4,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 1,
+          "saves": 6,
+          "passes": 528,
+          "accurate_passes": 460
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74elqtniegqu079h2u4lvu",
+      "provider": "goal_api",
+      "round": 8,
+      "date": "2026-10-17",
+      "home_team_id": "erzurum",
+      "away_team_id": "eyup",
+      "home_goals": 2,
+      "away_goals": 0,
+      "stats": {
+        "erzurum": {
+          "corners": 3,
+          "shots": 7,
+          "shots_on_target": 3,
+          "fouls": 20,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "saves": 4,
+          "passes": 373,
+          "accurate_passes": 297
+        },
+        "eyup": {
+          "corners": 2,
+          "shots": 10,
+          "shots_on_target": 4,
+          "fouls": 3,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes": 537,
+          "accurate_passes": 481
+        }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74ejdvnhruqu072xapfwvg",
+      "provider": "goal_api",
+      "round": 8,
+      "date": "2026-10-16",
+      "home_team_id": "corum",
+      "away_team_id": "rize",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "corum": {
+          "corners": 2,
+          "shots": 10,
+          "shots_on_target": 4,
+          "fouls": 19,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 3,
+          "passes": 455,
+          "accurate_passes": 394
+        },
+        "rize": {
+          "corners": 8,
+          "shots": 15,
+          "shots_on_target": 4,
+          "fouls": 12,
+          "offsides": 0,
+          "yellow_cards": 2,
+          "saves": 2,
+          "passes": 429,
+          "accurate_passes": 356
+        }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmtybzveqp2uulc079z3xchxb",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-12",
+      "home_team_id": "eyup",
+      "away_team_id": "goztepe",
+      "home_goals": 0,
+      "away_goals": 4,
+      "stats": {
+        "eyup": {
+          "corners": 3,
+          "shots": 7,
+          "shots_on_target": 4,
+          "fouls": 8,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "red_cards": 1,
+          "saves": 3,
+          "passes": 417,
+          "accurate_passes": 329
+        },
+        "goztepe": {
+          "corners": 7,
+          "shots": 19,
+          "shots_on_target": 7,
+          "fouls": 17,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "saves": 4,
+          "passes": 360,
+          "accurate_passes": 296
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmtybzveop2uslc071zj80pxp",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-11",
+      "home_team_id": "besiktas",
+      "away_team_id": "kocaeli",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "besiktas": {
+          "corners": 4,
+          "shots": 16,
+          "shots_on_target": 6,
+          "fouls": 11,
+          "offsides": 2,
+          "yellow_cards": 1,
+          "saves": 5,
+          "passes": 487,
+          "accurate_passes": 420
+        },
+        "kocaeli": {
+          "corners": 7,
+          "shots": 11,
+          "shots_on_target": 6,
+          "fouls": 13,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "saves": 4,
+          "passes": 348,
+          "accurate_passes": 276
+        }
+      },
+      "half_time_home_goals": 2,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmtybzvg9p2uylc07rxmzzyu3",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-11",
+      "home_team_id": "gaziantep",
+      "away_team_id": "corum",
+      "home_goals": 0,
+      "away_goals": 3,
+      "stats": {
+        "gaziantep": {
+          "corners": 9,
+          "shots": 13,
+          "shots_on_target": 2,
+          "fouls": 6,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 4,
+          "passes": 473,
+          "accurate_passes": 399
+        },
+        "corum": {
+          "corners": 5,
+          "shots": 13,
+          "shots_on_target": 7,
+          "fouls": 10,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 2,
+          "passes": 410,
+          "accurate_passes": 334
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmtybzvgdp2v2lc07z4bai26i",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-11",
+      "home_team_id": "konya",
+      "away_team_id": "basaksehir",
+      "home_goals": 0,
+      "away_goals": 0,
+      "stats": {
+        "konya": {
+          "corners": 3,
+          "shots": 9,
+          "shots_on_target": 3,
+          "fouls": 8,
+          "offsides": 5,
+          "saves": 0,
+          "passes": 433,
+          "accurate_passes": 345
+        },
+        "basaksehir": {
+          "corners": 5,
+          "shots": 7,
+          "shots_on_target": 0,
+          "fouls": 11,
+          "offsides": 0,
+          "saves": 3,
+          "passes": 357,
+          "accurate_passes": 266
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmtybzvggp2v4lc07jge811d0",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-10",
+      "home_team_id": "rize",
+      "away_team_id": "fenerbahce",
+      "home_goals": 0,
+      "away_goals": 3,
+      "stats": {
+        "rize": {
+          "corners": 2,
+          "shots": 19,
+          "shots_on_target": 5,
+          "fouls": 4,
+          "offsides": 0,
+          "saves": 2,
+          "passes": 454,
+          "accurate_passes": 383
+        },
+        "fenerbahce": {
+          "corners": 5,
+          "shots": 13,
+          "shots_on_target": 5,
+          "fouls": 6,
+          "offsides": 3,
+          "saves": 5,
+          "passes": 458,
+          "accurate_passes": 373
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmtybzvelp2uqlc07z5jbuei4",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-10",
+      "home_team_id": "alanya",
+      "away_team_id": "erzurum",
+      "home_goals": 0,
+      "away_goals": 0,
+      "stats": {
+        "alanya": {
+          "corners": 5,
+          "shots": 14,
+          "shots_on_target": 5,
+          "fouls": 12,
+          "offsides": 1,
+          "yellow_cards": 3,
+          "saves": 5,
+          "passes": 530,
+          "accurate_passes": 477
+        },
+        "erzurum": {
+          "corners": 3,
+          "shots": 15,
+          "shots_on_target": 5,
+          "fouls": 10,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "saves": 5,
+          "passes": 393,
+          "accurate_passes": 338
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmtybzvgip2v6lc079acafpdw",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-10",
+      "home_team_id": "samsun",
+      "away_team_id": "trabzon",
+      "home_goals": 0,
+      "away_goals": 3,
+      "stats": {
+        "samsun": {
+          "corners": 9,
+          "shots": 23,
+          "shots_on_target": 6,
+          "fouls": 22,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "saves": 4,
+          "passes": 483,
+          "accurate_passes": 402
+        },
+        "trabzon": {
+          "corners": 5,
+          "shots": 13,
+          "shots_on_target": 7,
+          "fouls": 6,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "red_cards": 1,
+          "saves": 6,
+          "passes": 391,
+          "accurate_passes": 309
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 3
+    },
+    {
+      "match_id": "goal-cmtybzvgbp2v0lc07auzsycqu",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-10",
+      "home_team_id": "gencler",
+      "away_team_id": "amed",
+      "home_goals": 2,
+      "away_goals": 2,
+      "stats": {
+        "gencler": {
+          "corners": 6,
+          "shots": 11,
+          "shots_on_target": 4,
+          "fouls": 14,
+          "offsides": 3,
+          "yellow_cards": 4,
+          "saves": 3,
+          "passes": 314,
+          "accurate_passes": 247
+        },
+        "amed": {
+          "corners": 3,
+          "shots": 19,
+          "shots_on_target": 5,
+          "fouls": 11,
+          "offsides": 0,
+          "yellow_cards": 4,
+          "saves": 2,
+          "passes": 352,
+          "accurate_passes": 269
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmtybzvg7p2uwlc07hmgyox60",
+      "provider": "goal_api",
+      "round": 7,
+      "date": "2026-10-09",
+      "home_team_id": "galatasaray",
+      "away_team_id": "kasimpasa",
+      "home_goals": 3,
+      "away_goals": 1,
+      "stats": {
+        "galatasaray": {
+          "corners": 8,
+          "shots": 24,
+          "shots_on_target": 10,
+          "fouls": 12,
+          "offsides": 0,
+          "yellow_cards": 2,
+          "red_cards": 1,
+          "saves": 2,
+          "passes": 428,
+          "accurate_passes": 360
+        },
+        "kasimpasa": {
+          "corners": 1,
+          "shots": 9,
+          "shots_on_target": 3,
+          "fouls": 15,
+          "offsides": 5,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "saves": 8,
+          "passes": 252,
+          "accurate_passes": 184
+        }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     }
   ]
 }
