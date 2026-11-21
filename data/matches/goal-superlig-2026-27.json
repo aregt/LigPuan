@@ -3,7 +3,7 @@
   "league": "Türkiye Süper Lig",
   "provider": "goal_api",
   "note": "GOAL API'den çekilen maç kayıtları. Aynı sağlayıcı kimliği ikinci kez eklenmez.",
-  "match_count": 99,
+  "match_count": 102,
   "matches": [
     {
       "match_id": "goal-cmt71reqlsvtqt10776p0umxq",
@@ -3532,6 +3532,114 @@
       },
       "half_time_home_goals": 1,
       "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmu74idpoophgqu070pgdkqwb",
+      "provider": "goal_api",
+      "round": 12,
+      "date": "2026-11-21",
+      "home_team_id": "amed",
+      "away_team_id": "rize",
+      "home_goals": 0,
+      "away_goals": 2,
+      "stats": {
+        "amed": {
+          "corners": 7,
+          "shots": 16,
+          "shots_on_target": 7,
+          "fouls": 10,
+          "offsides": 1,
+          "yellow_cards": 2,
+          "saves": 3,
+          "passes": 522,
+          "accurate_passes": 435
+        },
+        "rize": {
+          "corners": 4,
+          "shots": 10,
+          "shots_on_target": 5,
+          "fouls": 7,
+          "offsides": 1,
+          "yellow_cards": 5,
+          "saves": 7,
+          "passes": 415,
+          "accurate_passes": 348
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
+    },
+    {
+      "match_id": "goal-cmu74idprophiqu07rn3a2wsy",
+      "provider": "goal_api",
+      "round": 12,
+      "date": "2026-11-21",
+      "home_team_id": "galatasaray",
+      "away_team_id": "samsun",
+      "home_goals": 2,
+      "away_goals": 1,
+      "stats": {
+        "galatasaray": {
+          "corners": 5,
+          "shots": 11,
+          "shots_on_target": 5,
+          "fouls": 10,
+          "offsides": 3,
+          "yellow_cards": 2,
+          "saves": 6,
+          "passes": 529,
+          "accurate_passes": 465
+        },
+        "samsun": {
+          "corners": 8,
+          "shots": 18,
+          "shots_on_target": 7,
+          "fouls": 9,
+          "offsides": 5,
+          "yellow_cards": 1,
+          "saves": 3,
+          "passes": 412,
+          "accurate_passes": 345
+        }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74ib5koorgqu07xke39tkp",
+      "provider": "goal_api",
+      "round": 12,
+      "date": "2026-11-21",
+      "home_team_id": "gencler",
+      "away_team_id": "gaziantep",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "gencler": {
+          "corners": 1,
+          "shots": 7,
+          "shots_on_target": 2,
+          "fouls": 18,
+          "offsides": 3,
+          "yellow_cards": 1,
+          "saves": 2,
+          "passes": 306,
+          "accurate_passes": 196
+        },
+        "gaziantep": {
+          "corners": 3,
+          "shots": 13,
+          "shots_on_target": 2,
+          "fouls": 13,
+          "offsides": 4,
+          "yellow_cards": 2,
+          "saves": 1,
+          "passes": 513,
+          "accurate_passes": 408
+        }
+      },
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0
     }
   ]
 }
