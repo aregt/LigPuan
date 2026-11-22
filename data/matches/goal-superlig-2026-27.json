@@ -3,7 +3,7 @@
   "league": "Türkiye Süper Lig",
   "provider": "goal_api",
   "note": "GOAL API'den çekilen maç kayıtları. Aynı sağlayıcı kimliği ikinci kez eklenmez.",
-  "match_count": 102,
+  "match_count": 103,
   "matches": [
     {
       "match_id": "goal-cmt71reqlsvtqt10776p0umxq",
@@ -3639,6 +3639,42 @@
         }
       },
       "half_time_home_goals": 1,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74iic3oqx7qu07xo7ej2q0",
+      "provider": "goal_api",
+      "round": 12,
+      "date": "2026-11-21",
+      "home_team_id": "kocaeli",
+      "away_team_id": "fenerbahce",
+      "home_goals": 2,
+      "away_goals": 2,
+      "stats": {
+        "kocaeli": {
+          "corners": 4,
+          "shots": 14,
+          "shots_on_target": 5,
+          "fouls": 17,
+          "offsides": 2,
+          "yellow_cards": 4,
+          "saves": 4,
+          "passes": 309,
+          "accurate_passes": 221
+        },
+        "fenerbahce": {
+          "corners": 5,
+          "shots": 13,
+          "shots_on_target": 6,
+          "fouls": 19,
+          "offsides": 0,
+          "yellow_cards": 6,
+          "saves": 3,
+          "passes": 536,
+          "accurate_passes": 460
+        }
+      },
+      "half_time_home_goals": 0,
       "half_time_away_goals": 0
     }
   ]

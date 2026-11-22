@@ -1,12 +1,12 @@
 {
   "season": "2026-27",
   "league": "Türkiye Süper Lig",
-  "generated_at": "2026-11-21T16:30:45+00:00",
-  "match_count": 102,
+  "generated_at": "2026-11-22T00:59:52+00:00",
+  "match_count": 103,
   "coverage_total": 12,
   "source_kind": "provider",
   "latest_round": 12,
-  "latest_round_match_count": 3,
+  "latest_round_match_count": 4,
   "teams": [
     {
       "id": "amed",
@@ -175,6 +175,20 @@
       "rank": 4
     },
     {
+      "team_id": "fenerbahce",
+      "name": "Fenerbahçe",
+      "played": 12,
+      "won": 6,
+      "drawn": 2,
+      "lost": 4,
+      "goals_for": 31,
+      "goals_against": 12,
+      "average": 19,
+      "points": 20,
+      "points_deduction": 0,
+      "rank": 5
+    },
+    {
       "team_id": "kasimpasa",
       "name": "Kasımpaşa",
       "played": 11,
@@ -186,33 +200,19 @@
       "average": 6,
       "points": 20,
       "points_deduction": 0,
-      "rank": 5
-    },
-    {
-      "team_id": "fenerbahce",
-      "name": "Fenerbahçe",
-      "played": 11,
-      "won": 6,
-      "drawn": 1,
-      "lost": 4,
-      "goals_for": 29,
-      "goals_against": 10,
-      "average": 19,
-      "points": 19,
-      "points_deduction": 0,
       "rank": 6
     },
     {
       "team_id": "kocaeli",
       "name": "Kocaelispor",
-      "played": 11,
+      "played": 12,
       "won": 6,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 4,
-      "goals_for": 13,
-      "goals_against": 9,
+      "goals_for": 15,
+      "goals_against": 11,
       "average": 4,
-      "points": 19,
+      "points": 20,
       "points_deduction": 0,
       "rank": 7
     },
@@ -388,16 +388,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 141,
-          "coverage": 11
+          "sum": 155,
+          "coverage": 12
         },
         "alanya": {
           "sum": 116,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 164,
-          "coverage": 10
+          "sum": 177,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 164,
@@ -465,16 +465,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 50,
-          "coverage": 11
+          "sum": 55,
+          "coverage": 12
         },
         "alanya": {
           "sum": 34,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 68,
-          "coverage": 10
+          "sum": 74,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 72,
@@ -542,16 +542,16 @@
           "coverage": 11
         },
         "kocaeli": {
-          "sum": 44,
-          "coverage": 11
+          "sum": 48,
+          "coverage": 12
         },
         "alanya": {
           "sum": 53,
           "coverage": 11
         },
         "fenerbahce": {
-          "sum": 53,
-          "coverage": 10
+          "sum": 58,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 55,
@@ -619,8 +619,8 @@
           "coverage": 9
         },
         "kocaeli": {
-          "sum": 22,
-          "coverage": 10
+          "sum": 24,
+          "coverage": 11
         },
         "alanya": {
           "sum": 17,
@@ -628,7 +628,7 @@
         },
         "fenerbahce": {
           "sum": 23,
-          "coverage": 10
+          "coverage": 11
         },
         "trabzon": {
           "sum": 27,
@@ -696,16 +696,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 4574,
-          "coverage": 11
+          "sum": 4883,
+          "coverage": 12
         },
         "alanya": {
           "sum": 3784,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 4731,
-          "coverage": 10
+          "sum": 5267,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 5099,
@@ -773,16 +773,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 3676,
-          "coverage": 11
+          "sum": 3897,
+          "coverage": 12
         },
         "alanya": {
           "sum": 3089,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 4091,
-          "coverage": 10
+          "sum": 4551,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 4369,
@@ -927,16 +927,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 35,
-          "coverage": 11
+          "sum": 39,
+          "coverage": 12
         },
         "alanya": {
           "sum": 35,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 45,
-          "coverage": 10
+          "sum": 48,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 45,
@@ -1004,16 +1004,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 141,
-          "coverage": 11
+          "sum": 158,
+          "coverage": 12
         },
         "alanya": {
           "sum": 127,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 125,
-          "coverage": 10
+          "sum": 144,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 114,
@@ -1081,16 +1081,16 @@
           "coverage": 9
         },
         "kocaeli": {
-          "sum": 23,
-          "coverage": 11
+          "sum": 27,
+          "coverage": 12
         },
         "alanya": {
           "sum": 16,
           "coverage": 9
         },
         "fenerbahce": {
-          "sum": 16,
-          "coverage": 9
+          "sum": 22,
+          "coverage": 10
         },
         "trabzon": {
           "sum": 19,
@@ -1236,7 +1236,7 @@
         },
         "kocaeli": {
           "sum": 5,
-          "coverage": 11
+          "coverage": 12
         },
         "alanya": {
           "sum": 3,
@@ -1244,7 +1244,7 @@
         },
         "fenerbahce": {
           "sum": 6,
-          "coverage": 11
+          "coverage": 12
         },
         "trabzon": {
           "sum": 6,
@@ -1312,16 +1312,16 @@
           "coverage": 10
         },
         "kocaeli": {
-          "sum": 160,
-          "coverage": 11
+          "sum": 173,
+          "coverage": 12
         },
         "alanya": {
           "sum": 153,
           "coverage": 10
         },
         "fenerbahce": {
-          "sum": 151,
-          "coverage": 10
+          "sum": 165,
+          "coverage": 11
         },
         "trabzon": {
           "sum": 151,
