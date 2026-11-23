@@ -3,7 +3,7 @@
   "league": "Türkiye Süper Lig",
   "provider": "goal_api",
   "note": "GOAL API'den çekilen maç kayıtları. Aynı sağlayıcı kimliği ikinci kez eklenmez.",
-  "match_count": 106,
+  "match_count": 107,
   "matches": [
     {
       "match_id": "goal-cmt71reqlsvtqt10776p0umxq",
@@ -3781,6 +3781,42 @@
         }
       },
       "half_time_home_goals": 0,
+      "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74ioobot93qu07izuawsvk",
+      "provider": "goal_api",
+      "round": 12,
+      "date": "2026-11-22",
+      "home_team_id": "trabzon",
+      "away_team_id": "eyup",
+      "home_goals": 1,
+      "away_goals": 0,
+      "stats": {
+        "trabzon": {
+          "corners": 11,
+          "shots": 24,
+          "shots_on_target": 9,
+          "fouls": 10,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "saves": 1,
+          "passes": 734,
+          "accurate_passes": 679
+        },
+        "eyup": {
+          "corners": 4,
+          "shots": 7,
+          "shots_on_target": 1,
+          "fouls": 8,
+          "offsides": 2,
+          "yellow_cards": 2,
+          "saves": 8,
+          "passes": 287,
+          "accurate_passes": 233
+        }
+      },
+      "half_time_home_goals": 1,
       "half_time_away_goals": 0
     }
   ]

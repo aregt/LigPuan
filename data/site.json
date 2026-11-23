@@ -1,12 +1,12 @@
 {
   "season": "2026-27",
   "league": "Türkiye Süper Lig",
-  "generated_at": "2026-11-22T16:48:29+00:00",
-  "match_count": 106,
+  "generated_at": "2026-11-23T01:26:45+00:00",
+  "match_count": 107,
   "coverage_total": 12,
   "source_kind": "provider",
   "latest_round": 12,
-  "latest_round_match_count": 7,
+  "latest_round_match_count": 8,
   "teams": [
     {
       "id": "amed",
@@ -135,14 +135,14 @@
     {
       "team_id": "trabzon",
       "name": "Trabzonspor",
-      "played": 11,
-      "won": 8,
+      "played": 12,
+      "won": 9,
       "drawn": 1,
       "lost": 2,
-      "goals_for": 26,
+      "goals_for": 27,
       "goals_against": 8,
-      "average": 18,
-      "points": 25,
+      "average": 19,
+      "points": 28,
       "points_deduction": 0,
       "rank": 2
     },
@@ -359,13 +359,13 @@
     {
       "team_id": "eyup",
       "name": "Eyüpspor",
-      "played": 11,
+      "played": 12,
       "won": 1,
       "drawn": 0,
-      "lost": 10,
+      "lost": 11,
       "goals_for": 3,
-      "goals_against": 30,
-      "average": -27,
+      "goals_against": 31,
+      "average": -28,
       "points": 3,
       "points_deduction": 0,
       "rank": 18
@@ -400,8 +400,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 164,
-          "coverage": 11
+          "sum": 188,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 153,
@@ -444,8 +444,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 117,
-          "coverage": 11
+          "sum": 124,
+          "coverage": 12
         }
       }
     },
@@ -477,8 +477,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 72,
-          "coverage": 11
+          "sum": 81,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 51,
@@ -521,8 +521,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 38,
-          "coverage": 11
+          "sum": 39,
+          "coverage": 12
         }
       }
     },
@@ -554,8 +554,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 55,
-          "coverage": 11
+          "sum": 66,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 49,
@@ -598,8 +598,8 @@
           "coverage": 10
         },
         "eyup": {
-          "sum": 37,
-          "coverage": 10
+          "sum": 41,
+          "coverage": 11
         }
       }
     },
@@ -631,8 +631,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 27,
-          "coverage": 11
+          "sum": 28,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 14,
@@ -675,8 +675,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 8,
-          "coverage": 11
+          "sum": 10,
+          "coverage": 12
         }
       }
     },
@@ -708,8 +708,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 5099,
-          "coverage": 11
+          "sum": 5833,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 4321,
@@ -752,8 +752,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 4523,
-          "coverage": 11
+          "sum": 4810,
+          "coverage": 12
         }
       }
     },
@@ -785,8 +785,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 4369,
-          "coverage": 11
+          "sum": 5048,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 3395,
@@ -829,8 +829,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 3840,
-          "coverage": 11
+          "sum": 4073,
+          "coverage": 12
         }
       }
     },
@@ -939,8 +939,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 45,
-          "coverage": 11
+          "sum": 46,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 39,
@@ -983,8 +983,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 33,
-          "coverage": 11
+          "sum": 41,
+          "coverage": 12
         }
       }
     },
@@ -1016,8 +1016,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 114,
-          "coverage": 11
+          "sum": 124,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 198,
@@ -1060,8 +1060,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 114,
-          "coverage": 11
+          "sum": 122,
+          "coverage": 12
         }
       }
     },
@@ -1094,7 +1094,7 @@
         },
         "trabzon": {
           "sum": 19,
-          "coverage": 11
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 32,
@@ -1137,8 +1137,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 14,
-          "coverage": 11
+          "sum": 16,
+          "coverage": 12
         }
       }
     },
@@ -1247,8 +1247,8 @@
           "coverage": 12
         },
         "trabzon": {
-          "sum": 6,
-          "coverage": 11
+          "sum": 7,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 4,
@@ -1292,7 +1292,7 @@
         },
         "eyup": {
           "sum": 0,
-          "coverage": 11
+          "coverage": 12
         }
       }
     },
@@ -1324,8 +1324,8 @@
           "coverage": 11
         },
         "trabzon": {
-          "sum": 151,
-          "coverage": 11
+          "sum": 158,
+          "coverage": 12
         },
         "kasimpasa": {
           "sum": 160,
@@ -1368,8 +1368,8 @@
           "coverage": 11
         },
         "eyup": {
-          "sum": 155,
-          "coverage": 11
+          "sum": 179,
+          "coverage": 12
         }
       }
     }
