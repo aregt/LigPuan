@@ -1,12 +1,12 @@
 {
   "season": "2026-27",
   "league": "Türkiye Süper Lig",
-  "generated_at": "2026-11-23T01:26:45+00:00",
-  "match_count": 107,
+  "generated_at": "2026-11-23T20:44:57+00:00",
+  "match_count": 108,
   "coverage_total": 12,
   "source_kind": "provider",
   "latest_round": 12,
-  "latest_round_match_count": 8,
+  "latest_round_match_count": 9,
   "teams": [
     {
       "id": "amed",
@@ -217,6 +217,20 @@
       "rank": 7
     },
     {
+      "team_id": "basaksehir",
+      "name": "İstanbul Başakşehir",
+      "played": 12,
+      "won": 6,
+      "drawn": 2,
+      "lost": 4,
+      "goals_for": 23,
+      "goals_against": 19,
+      "average": 4,
+      "points": 20,
+      "points_deduction": 0,
+      "rank": 8
+    },
+    {
       "team_id": "goztepe",
       "name": "Göztepe",
       "played": 12,
@@ -227,20 +241,6 @@
       "goals_against": 19,
       "average": 4,
       "points": 18,
-      "points_deduction": 0,
-      "rank": 8
-    },
-    {
-      "team_id": "basaksehir",
-      "name": "İstanbul Başakşehir",
-      "played": 11,
-      "won": 5,
-      "drawn": 2,
-      "lost": 4,
-      "goals_for": 19,
-      "goals_against": 17,
-      "average": 2,
-      "points": 17,
       "points_deduction": 0,
       "rank": 9
     },
@@ -261,13 +261,13 @@
     {
       "team_id": "corum",
       "name": "Çorum",
-      "played": 11,
+      "played": 12,
       "won": 5,
       "drawn": 1,
-      "lost": 5,
-      "goals_for": 21,
-      "goals_against": 21,
-      "average": 0,
+      "lost": 6,
+      "goals_for": 23,
+      "goals_against": 25,
+      "average": -2,
       "points": 16,
       "points_deduction": 0,
       "rank": 11
@@ -416,12 +416,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 143,
-          "coverage": 11
+          "sum": 154,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 144,
-          "coverage": 11
+          "sum": 170,
+          "coverage": 12
         },
         "gencler": {
           "sum": 131,
@@ -493,12 +493,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 57,
-          "coverage": 11
+          "sum": 60,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 50,
-          "coverage": 11
+          "sum": 55,
+          "coverage": 12
         },
         "gencler": {
           "sum": 43,
@@ -570,12 +570,12 @@
           "coverage": 11
         },
         "corum": {
-          "sum": 44,
-          "coverage": 11
+          "sum": 45,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 49,
-          "coverage": 10
+          "sum": 52,
+          "coverage": 11
         },
         "gencler": {
           "sum": 45,
@@ -647,12 +647,12 @@
           "coverage": 9
         },
         "corum": {
-          "sum": 18,
-          "coverage": 11
+          "sum": 20,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 12,
-          "coverage": 11
+          "sum": 15,
+          "coverage": 12
         },
         "gencler": {
           "sum": 22,
@@ -724,12 +724,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 5186,
-          "coverage": 11
+          "sum": 5491,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 4794,
-          "coverage": 11
+          "sum": 5353,
+          "coverage": 12
         },
         "gencler": {
           "sum": 3898,
@@ -801,12 +801,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 4423,
-          "coverage": 11
+          "sum": 4641,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 3979,
-          "coverage": 11
+          "sum": 4478,
+          "coverage": 12
         },
         "gencler": {
           "sum": 2994,
@@ -955,12 +955,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 36,
-          "coverage": 11
+          "sum": 37,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 32,
-          "coverage": 11
+          "sum": 33,
+          "coverage": 12
         },
         "gencler": {
           "sum": 57,
@@ -1032,12 +1032,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 146,
-          "coverage": 11
+          "sum": 152,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 151,
-          "coverage": 11
+          "sum": 158,
+          "coverage": 12
         },
         "gencler": {
           "sum": 166,
@@ -1109,12 +1109,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 21,
-          "coverage": 11
+          "sum": 24,
+          "coverage": 12
         },
         "basaksehir": {
           "sum": 22,
-          "coverage": 10
+          "coverage": 11
         },
         "gencler": {
           "sum": 22,
@@ -1264,11 +1264,11 @@
         },
         "corum": {
           "sum": 2,
-          "coverage": 11
+          "coverage": 12
         },
         "basaksehir": {
           "sum": 3,
-          "coverage": 11
+          "coverage": 12
         },
         "gencler": {
           "sum": 3,
@@ -1340,12 +1340,12 @@
           "coverage": 10
         },
         "corum": {
-          "sum": 163,
-          "coverage": 11
+          "sum": 189,
+          "coverage": 12
         },
         "basaksehir": {
-          "sum": 141,
-          "coverage": 11
+          "sum": 152,
+          "coverage": 12
         },
         "gencler": {
           "sum": 206,

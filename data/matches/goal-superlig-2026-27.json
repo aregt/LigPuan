@@ -3,7 +3,7 @@
   "league": "Türkiye Süper Lig",
   "provider": "goal_api",
   "note": "GOAL API'den çekilen maç kayıtları. Aynı sağlayıcı kimliği ikinci kez eklenmez.",
-  "match_count": 107,
+  "match_count": 108,
   "matches": [
     {
       "match_id": "goal-cmt71reqlsvtqt10776p0umxq",
@@ -3818,6 +3818,42 @@
       },
       "half_time_home_goals": 1,
       "half_time_away_goals": 0
+    },
+    {
+      "match_id": "goal-cmu74irjbou68qu07vzxlpfy1",
+      "provider": "goal_api",
+      "round": 12,
+      "date": "2026-11-23",
+      "home_team_id": "basaksehir",
+      "away_team_id": "corum",
+      "home_goals": 4,
+      "away_goals": 2,
+      "stats": {
+        "basaksehir": {
+          "corners": 3,
+          "shots": 26,
+          "shots_on_target": 5,
+          "fouls": 7,
+          "offsides": 3,
+          "yellow_cards": 0,
+          "saves": 1,
+          "passes": 559,
+          "accurate_passes": 499
+        },
+        "corum": {
+          "corners": 1,
+          "shots": 11,
+          "shots_on_target": 3,
+          "fouls": 6,
+          "offsides": 2,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes": 305,
+          "accurate_passes": 218
+        }
+      },
+      "half_time_home_goals": 0,
+      "half_time_away_goals": 1
     }
   ]
 }
